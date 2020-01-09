@@ -1,0 +1,25 @@
+.each-slide div{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.react-slideshow-container + div.indicators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: -40px;
+}
+.react-slideshow-container + div.indicators > div {
+    width: 17px;
+    height: 17px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: rgb(17, 0, 255);
+    cursor: pointer;
+}
+.react-slideshow-container + div.indicators > div.active {
+    background: rgb(250, 150, 0);
+}

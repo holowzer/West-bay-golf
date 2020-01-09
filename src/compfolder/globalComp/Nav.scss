@@ -1,0 +1,36 @@
+nav img{
+    height  : 80px;
+}
+nav img:first-child{
+    height  : 40px;
+    margin-left: 30px;
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 50px;
+}
+nav{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    a{
+        width: 130px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        align-items: center;
+        margin-right: 30px;
+        background:#6A8C57;
+        transition: 0.1s all ease-in;
+    }
+    a:hover{
+        background: rgb(60, 80, 49);
+    }
+}

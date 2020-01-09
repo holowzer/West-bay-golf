@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
- 
+import "./Slider.scss"
 
  
 const properties = {
@@ -19,6 +19,7 @@ const Slideshow = (props) => {
 
     const slideImages = props.img
     return (
+        <div className="slideHeader">
       <div className="slide-container">
         <Slide {...properties}>
           {
@@ -32,6 +33,7 @@ const Slideshow = (props) => {
             })
           }
         </Slide>
+      </div>
       </div>
     )
 }

@@ -4,11 +4,15 @@ import img1 from "../images/download1.jpg"
 import img2 from "../images/download2.jpg"
 import Slideshow from './globalComp/Slider';
 import "./Homepage.scss"
+import Nav from "./globalComp/Nav"
 
 let Homepage = ()=>{
 
     return(
-        <Slideshow img={[img0, img1, img2]} />
+        <div>
+            <Nav/>
+            <Slideshow img={[img0, img1, img2]} />
+        </div>
     )
 }
 
