@@ -115,4 +115,22 @@
         margin: 0;
         font-size: 2.8em;
     }
+
+    a{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        align-items: center;
+        margin-right: 30px;
+        background:#6A8C57;
+        text-transform: uppercase;
+        transition: 0.1s all ease-in;
+    }
+    a:hover{
+        background: rgb(60, 80, 49);
+    }
 }
