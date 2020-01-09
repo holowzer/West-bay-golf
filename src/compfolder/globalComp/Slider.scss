@@ -1,5 +1,11 @@
-.each-slide div{
+.normal{
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.little{
+    height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

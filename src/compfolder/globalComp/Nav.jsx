@@ -1,5 +1,5 @@
 import React from 'react';
-import navIcon from "../../images/menu.png"
+import navIcon from "../../images/menu.svg"
 import westBayLogo from "../../images/LogowestBay.png"
 import "./Nav.scss"
 

@@ -7,7 +7,7 @@ const properties = {
   duration: 5000,
   transitionDuration: 500,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: false,
   onChange: (oldIndex, newIndex) => {
     console.log(`slide transition from ${oldIndex} to ${newIndex}`);
@@ -26,11 +26,11 @@ const Slideshow = (props) => {
             slideImages.map((img) => {
               return (
                 <div className="each-slide">
-                  <div style={{ 'backgroundImage': `url(${img})` }}>
+                  <div className={props.size} style={{ 'backgroundImage': `url(${img})` }}>
                   </div>
                 </div>
               )
-            })
+            }) 
           }
         </Slide>
       </div>
