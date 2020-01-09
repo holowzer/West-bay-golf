@@ -56,6 +56,10 @@ footer{
             height: 100%;
             text-align: center;
             
+            & > img{
+                max-width: 100%;
+            }
+
             .weather-widget{
                 border-radius: 10px;
                 background: #698b56;
@@ -64,9 +68,13 @@ footer{
             }
 
             .footer-logo-vertical-align{
+                width: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                img{
+                    max-width: 100%;
+                }
             }
         }
 

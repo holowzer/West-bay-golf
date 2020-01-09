@@ -42,8 +42,12 @@ let Footer = () => {
                     </div>
                     <img src="/sotheby-logo.png" alt=""/>
                     <div className="footer-logo-vertical-align">
-                        <img src="/blackiguana-logo.png" alt=""/>
-                        <img src="/dyedesign-logo.png" alt="" />
+                        <div>
+                            <img src="/blackiguana-logo.png" alt=""/>
+                        </div>
+                        <div>
+                            <img src="/dyedesign-logo.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Golfcourse from "./compfolder/Golfcourse"
 import Homepage from "./compfolder/Homepage"
+import Footer from "./compfolder/globalComp/Footer"
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 
 
@@ -10,10 +11,11 @@ function App() {
   return (
 
     <Router>
-    <div className="App">
-      <Route path="/Homepage" component={Homepage}/>
-      <Route path="/Golfcourse" component={Golfcourse}/>
-    </div>
+      <div className="App">
+        <Route path="/" component={Homepage}/>
+        <Route path="/Golfcourse" component={Golfcourse}/>
+      </div>
+      <Footer/>
     </Router>
   )
 }
