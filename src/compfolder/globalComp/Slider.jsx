@@ -17,26 +17,20 @@ const properties = {
 const Slideshow = (props) => {
 
 
-    const slideImages = [
-        props.img0,
-        props.img1,
-        props.img2
-      ];
+    const slideImages = props.img
     return (
       <div className="slide-container">
         <Slide {...properties}>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-            </div>
-          </div>
+          {
+            slideImages.map((img) => {
+              return (
+                <div className="each-slide">
+                  <div style={{ 'backgroundImage': `url(${img})` }}>
+                  </div>
+                </div>
+              )
+            })
+          }
         </Slide>
       </div>
     )

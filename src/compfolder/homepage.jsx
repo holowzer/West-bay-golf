@@ -8,7 +8,7 @@ import Slideshow from './globalComp/Slider';
 let Homepage = ()=>{
 
     return(
-        <Slideshow img0={img0} img1={img1}  img2={img2} />
+        <Slideshow img={[img0, img1, img2]} />
     )
 }
 
