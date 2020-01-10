@@ -21,16 +21,14 @@ const RentalContact = () => {
 
                 <div className="contact-form-block">
                     <div className="company-info">
-                        <img src="/sotheby-logo.png" alt="Sotheby's International Realty logo" />
+                        <img src="/blackiguana-logo.png" alt="Black Iguana logo" />
                         <div>
-                            <a href="phone:7132613315" title="Call Sotheby's International Realty">713 261 3315</a>
-                            <a href="phone:+50424453222" title="Call Sotheby's International Realty">+ 504 2445 3222</a>
-                            <a href="mailto:info@roatansir.com" title="Contact West Bay">info@roatansir.com</a>
+                            <a href="phone:+504 9483-7049" title="Call West Bay">+504 9483-7049</a>
+                            <a href="mailto:golf@westbaygolfclubvillas.com" title="Contact West Bay">golf@westbaygolfclubvillas.com</a>
                         </div>
                         <div>
-                            Coral Stone Plaza<br />
-                            Sandy Bay Rd<br />
-                            Roatan, Honduras
+                            Palm Ln, West Bay, <br />
+                            Honduras
                         </div>
                     </div>
 
