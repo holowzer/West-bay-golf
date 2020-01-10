@@ -1,6 +1,6 @@
 .aboutusContainer{
     .aboutus-presentation{
-        margin: 40px 0;
+        margin: 120px 0;
         width: 100%;
         position: relative;
         display: flex;
@@ -25,6 +25,8 @@
         background: lightgray;
         
         margin-top: 30px;
+        margin-bottom: 130px;
+
 
         display: flex;
 
@@ -107,6 +109,12 @@
 
     .aboutus-center-block{
         text-align: center;
+        margin-bottom: 320px;
+        padding: 0 120px;
+        h2{
+            margin-top: 140px;
+            margin-bottom: 150px;
+        }
     }
 
     .aboutus-clubhouse-previews{
