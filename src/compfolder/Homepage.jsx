@@ -14,7 +14,7 @@ let Homepage = () => {
             <div className="homepageNavContainer">
                 <Nav />
 
-                <h1 class="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
+                <h1 className="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
                 <Player
                     playsInline
                     muted
@@ -39,10 +39,10 @@ let Homepage = () => {
             </div>
 
             <div className="homepagePreview text-on-right">
-                <div class="preview-image">
+                <div className="preview-image">
                     <img src={img1} alt="Golf preview"/>
                 </div>
-                <div class="preview-text">
+                <div className="preview-text">
                     <h3>The Golf Experience</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
@@ -59,7 +59,7 @@ let Homepage = () => {
                     <a href="/golf" className="preview-cta">Learn more</a>
                 </div>
             </div>
-            <div class="slideshow-with-text">
+            <div className="slideshow-with-text">
                 <h2>Mixing the deepest blues and brightest greens</h2>
                 <Slideshow size="little" img={[img0, img1, img2]} />
             </div>
@@ -78,10 +78,10 @@ let Homepage = () => {
                 </p>
             </div>
             <div className="homepagePreview text-on-left">
-                <div class="preview-image">
+                <div className="preview-image">
                     <img src={img2} alt="Residence preview" />
                 </div>
-                <div class="preview-text">
+                <div className="preview-text">
                     <h3>Live and play <br/>in Paradise</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
