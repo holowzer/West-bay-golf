@@ -12,6 +12,14 @@ let Golfcourse = ()=>{
         <div className="golfCourseContainer">
             <div>
             <Nav/>
+            <div className="moto"><h2>Welcome to the <br/> Black Iguana Golf-Club</h2></div>
+            <div className="overLayer">
+            <h4>Book your tee off today !</h4>
+                <div className="rightCTA">
+                    <a href="">Find your tee time <span id='spanLine'>-</span></a>
+                </div>
+                <h3></h3>
+            </div>
             <Slideshow size="normal" img={[img0, img1, img2]} />
             </div>
             <div className="welcomeDiv">

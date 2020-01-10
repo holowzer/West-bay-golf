@@ -16,8 +16,8 @@ function App() {
         <Route path="/" exact component={Homepage}/>
         <Route path="/golf" component={Golfcourse}/>
         <Route path="/about-us" component={Aboutus}/>
+        <Footer/>
       </div>
-      <Footer/>
     </Router>
   )
 }
