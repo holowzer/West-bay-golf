@@ -13,7 +13,7 @@ const GeneralMenu = ()=>{
     },[])
     
     return(
-        <div className="generalMenu">
+        <div className="generalMenu toggleMenu">
                     <div className="topDiv">
                         <img className="theCross" src={close} alt=""/>
                     </div>
