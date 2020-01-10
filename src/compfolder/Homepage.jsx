@@ -11,7 +11,7 @@ let Homepage = () => {
 
     return (
         <div className="homepageContainer">
-            <div>
+            <div className="homepageNavContainer">
                 <Nav />
 
                 <h1 class="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
