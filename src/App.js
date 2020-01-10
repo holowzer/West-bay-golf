@@ -25,8 +25,8 @@ function App() {
         <Route path="/contact/book-golf" component={BookGolf}/>
         <Route path="/contact/real-estate-sales" component={SalesContact}/>
         <Route path="/contact/real-estate-rental" component={RentalContact}/>
+        <Footer/>
       </div>
-      <Footer/>
     </Router>
   )
 }
