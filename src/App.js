@@ -10,6 +10,7 @@ import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
 import Aboutus from "./compfolder/Aboutus"
 import Footer from "./compfolder/globalComp/Footer"
 import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
+import Residences from './compfolder/Residences';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" exact component={Homepage}/>
         <Route path="/golf" component={Golfcourse}/>
         <Route path="/about-us" component={Aboutus}/>
+        <Route path="/Residences" component={Residences}/>
 
         <Route path="/contact/book-golf" component={BookGolf}/>
         <Route path="/contact/real-estate-sales" component={SalesContact}/>

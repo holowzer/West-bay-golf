@@ -25,7 +25,7 @@ const GeneralMenu = ()=>{
                             <Link to="/about-us">
                                 <a href="">About Us</a>
                             </Link>
-                            <Link to="/Residence">
+                            <Link to="/Residences">
                             <a href="">The Residences</a>
                             </Link>
                             <Link to="/Galery">
