@@ -34,10 +34,10 @@ let Aboutus = () => {
             </div>
             
             <div className="aboutusPreview text-on-right">
-                <div class="preview-image">
+                <div className="preview-image">
                     <img src={img1} alt="Golf preview" />
                 </div>
-                <div class="preview-text">
+                <div className="preview-text">
                     <h3>The Golf Experience</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
