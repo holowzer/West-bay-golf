@@ -9,7 +9,6 @@ const properties = {
   indicators: false,
   arrows: false,
   onChange: (oldIndex, newIndex) => {
-    console.log(`slide transition from ${oldIndex} to ${newIndex}`);
   }
 }
  
