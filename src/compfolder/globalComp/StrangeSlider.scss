@@ -1,0 +1,57 @@
+.strangeSliderContainer{
+    width: 100%;
+    height: 750px;
+    background: rgb(145, 25, 25);
+    position: relative;
+    p{
+        width: 350px;
+        position: absolute;
+        top: 23%;
+        right: 50px;
+    }
+    .bigWindow{
+        width: 500px;
+        height: 500px;
+        background: rgb(34, 34, 34);
+        position: relative;
+        top: 23%;
+        left: 200px;
+        img{
+            object-fit: cover;
+            width:100%; height:100%;
+        }
+        .littleWindows{
+            width: 560px;
+            height: 250px;
+            background: rgba(61, 23, 23, 0);
+            position: absolute;
+            left: 470px;
+            bottom: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            .littleImgContainer{
+                background: #000;
+                overflow: hidden;
+                width: 220px;
+                height: 220px;
+                img{
+                    object-fit: cover;
+                    width:100%; height:100%;
+                }
+            }
+            .greyDiv{
+                width: 70px;
+                height: 220px;
+                background: #000;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2.8em;
+
+            }
+        }
+    
+    }
+}
