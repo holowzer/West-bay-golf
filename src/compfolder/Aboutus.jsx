@@ -13,11 +13,11 @@ let Aboutus = () => {
         <div className="aboutusContainer">
             <div>
                 <Nav />
-                <Slideshow size="normal" img={[img0, img1, img2]} />
+                <Slideshow size="normal" img={["/assets/about-us-landing-1.jpg", "/assets/about-us-landing-2.jpg", "/assets/about-us-landing-3.jpg"]} />
             </div>
             <div className="aboutus-presentation text-on-right">
                 <div>
-                    <img src={img1} alt="Property view" />
+                    <img src="/assets/residence-preview.jpg" alt="Property view" />
                 </div>
                 <div>
                     <h2>Welcome to the <br/> West Bay Golf <br/> Club & Villas</h2>
@@ -26,7 +26,7 @@ let Aboutus = () => {
             </div>
             <div className="aboutus-presentation text-on-left">
                 <div>
-                    <img src={img2} alt="Why The Black Iguana" />
+                    <img src="/assets/about-us-landing-2.jpg" alt="Why The Black Iguana" />
                 </div>
                 <div>
                     <h2>Why The <br/> Black Iguana</h2>
@@ -36,7 +36,7 @@ let Aboutus = () => {
             
             <div className="aboutusPreview text-on-right">
                 <div className="preview-image">
-                    <img src={img1} alt="Golf preview" />
+                    <img src="/assets/golf-preview-2.jpg" alt="Golf preview" />
                 </div>
                 <div className="preview-text">
                     <h3>The Golf Experience</h3>
@@ -93,13 +93,13 @@ let Aboutus = () => {
                 <div className="aboutus-clubhouse-previews">
                     <div className="sidebyside">
                         <div>
-                            <img src={img0} alt="Club House 1"/>
+                            <img src="/assets/about-us-clubhouse-2.jpg" alt="Club House 1"/>
                         </div>
                         <div>
-                            <img src={img1} alt="Club House 2"/>
+                            <img src="/assets/residence-experience.jpg" alt="Club House 2"/>
                         </div>
                     </div>
-                    <img src={img2} alt="Club House 3"/>
+                    <img src="/assets/about-us-clubhouse-1.jpg" alt="Club House 3"/>
                 </div>
                 <div>
                     <h3>Join Us for a <br/>Bite After Your <br/>Round</h3>
