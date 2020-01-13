@@ -20,6 +20,7 @@ let Homepage = () => {
                     playsInline
                     muted
                     autoPlay
+                    loop
                     poster="/logo512.png" // TODO: Chage poster
                     height="100vh"
                     src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
@@ -41,7 +42,7 @@ let Homepage = () => {
 
             <div className="homepagePreview text-on-right">
                 <div className="preview-image">
-                    <img src={img1} alt="Golf preview"/>
+                    <img src="/assets/golf-preview.jpg" alt="Golf preview"/>
                 </div>
                 <div className="preview-text">
                     <h3>The Golf Experience</h3>
@@ -62,7 +63,7 @@ let Homepage = () => {
             </div>
             <div className="slideshow-with-text">
                 <h2>Mixing the deepest blues and brightest greens</h2>
-                <Slideshow size="little" img={[img0, img1, img2]} />
+                <Slideshow size="little" img={["/assets/home-slide-1.jpg", "/assets/home-slide-2.jpg", "/assets/home-slide-3.jpg"]} />
             </div>
             <div className="homepage-center-block">
                 <h2>Live your best life at West Bay <br /> Golf Club & Villas</h2>
@@ -80,7 +81,7 @@ let Homepage = () => {
             </div>
             <div className="homepagePreview text-on-left">
                 <div className="preview-image">
-                    <img src={img2} alt="Residence preview" />
+                    <img src="/assets/residence-preview.jpg" alt="Residence preview" />
                 </div>
                 <div className="preview-text">
                     <h3>Live and play <br/>in Paradise</h3>
@@ -106,11 +107,11 @@ let Homepage = () => {
                 <div className="sidebyside">
                     <div>
                         <h3>The Golf Experience</h3>
-                        <img src={img1} alt="Golf preview"/>
+                        <img src="/assets/golf-experience.jpg" alt="Golf preview"/>
                     </div>
                     <div>
                         <h3>The Residence</h3>
-                        <img src={img2} alt="Residence preview" />
+                        <img src="/assets/residence-experience.jpg" alt="Residence preview" />
                     </div>
                 </div>
             </div>
