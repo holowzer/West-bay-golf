@@ -3,8 +3,8 @@ require_once 'vendor/autoload.php';
 
 
 if(isset($_POST) && isset($_GET["topic"])){
-    $transport = new Swift_SmtpTransport('localhost', 1025);
-    // $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs'); 
+    /*DEV PURPOSE ONLY*/ // $transport = new Swift_SmtpTransport('localhost', 1025);
+    $transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs'); 
     $mailer = new Swift_Mailer($transport);
 
     $message = (new Swift_Message('New message from Westbay website'))
@@ -25,8 +25,6 @@ if(isset($_POST) && isset($_GET["topic"])){
             die("Error");
     }
 
-    // $message->setTo("satwa.fr@gmail.com");
-
     $text = "Hello, \r\n Here's the request received from your website.\r\n";
 
     foreach($_POST as $k => $v){
@@ -36,32 +34,7 @@ if(isset($_POST) && isset($_GET["topic"])){
     
     $result = $mailer->send($message);
 
-    // print($result);
-
-    // echo `<script>window.location = ` . $_SERVER['HTTP_REFERER'] . `</script>`;
-
     header('Location: ' . $_SERVER['HTTP_REFERER']);
 }else{
     die("Error.");
 }
-
-
-
-// Create the Transport
-// $transport = (new Swift_SmtpTransport('smtp.example.org', 25))
-//   ->setUsername('your username')
-//   ->setPassword('your password')
-// ;
-
-// Create the Mailer using your created Transport
-$mailer = new Swift_Mailer($transport);
-
-// Create a message
-$message = (new Swift_Message('Wonderful Subject'))
-  ->setFrom(['john@doe.com' => 'John Doe'])
-  ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
-  ->setBody('Here is the message itself')
-  ;
-
-// Send the message
-$result = $mailer->send($message);
