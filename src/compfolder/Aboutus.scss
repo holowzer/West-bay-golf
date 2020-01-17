@@ -167,3 +167,70 @@
     }
 
 }
+
+
+@media screen and (max-width: 950px){
+    .aboutusContainer{
+        .aboutusPreview{
+            flex-direction: column;
+    
+            .preview-image{
+                img{
+                    width: 100%;
+                }
+            }
+    
+            &.text-on-right{
+                .preview-image{
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+            }
+    
+            &.text-on-left{
+                flex-direction: column-reverse;
+                .preview-image{
+                    position: relative;
+                    top: 0;
+                    // right: -30px;
+                }
+            }
+        }
+
+        .aboutus-family{
+            flex-direction: column;
+            padding-left: 0;
+        }
+
+
+        .aboutus-presentation{
+            flex-direction: column;
+            &.text-on-left{
+                flex-direction: column;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+        .aboutus-clubhouse{
+            margin: 0 50px;
+            flex-direction: column;
+            .aboutus-clubhouse-previews{
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                align-items: center;
+                padding: 20px;
+                img{
+                    margin: 10px;
+                    width: 100%;
+                }
+            }
+            .aboutus-clubhouse-text{
+                padding: 0;
+            }
+        }
+    }
+}
