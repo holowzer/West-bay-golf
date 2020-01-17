@@ -33,7 +33,7 @@ const BookGolf = () => {
                         </div>
                     </div>
 
-                    <form className="contact-form">
+                    <form className="contact-form" action="/contact.php?topic=golf" method="post">
                         <div>
                             <label>
                                 Name

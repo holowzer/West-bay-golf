@@ -19,7 +19,7 @@ const RentalContact = () => {
                     Contact us via the form below or use the email address, telephone number, or postal information. We look forward to hearing from you.
                 </p>
 
-                <div className="contact-form-block">
+                <div className="contact-form-block" action="/contact.php?topic=rental" method="post">
                     <div className="company-info">
                         <div>
                             <img src={westBayLogo} alt="Black Iguana logo" />

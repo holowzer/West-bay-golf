@@ -35,7 +35,7 @@ const SalesContact = () => {
                         </div>
                     </div>
 
-                    <form className="contact-form">
+                    <form className="contact-form" action="/contact.php?topic=sales" method="post">
                         <div>
                             <label>
                                 Name
