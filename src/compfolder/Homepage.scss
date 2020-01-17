@@ -1,5 +1,17 @@
 @import "~video-react/styles/scss/video-react";
 
+.homepageContainer{
+    h2{
+        font-size: 77px;
+        color: #505050;
+    }
+
+
+    h3{
+        font-size: 32px;
+    }
+}
+
 .homepageNavContainer{
     position: relative;
 }
@@ -41,15 +53,13 @@
     .preview-image{
         flex: 2;
         img{
-            width: 100%;
+            width: calc(100% + 30px);
         }
     }
 
     .preview-text{
         flex: 1;
-        margin-left: 30px;
-        // margin-right:440px;
-        // max-width: 300px;
+        padding: 90px;
     }
 
     .preview-cta{
@@ -72,7 +82,7 @@
         .preview-image{
             position: relative;
             top: -30px;
-            right: -30px;
+            // right: -30px;
         }
     }
 }
@@ -83,12 +93,14 @@
         position: absolute;
         bottom: 20px;
         left: 20px;
-        z-index: 9999;
+        z-index: 2;
+        font-size: 24px;
         color: white;
     }
 }
 
 .homepageGlobalPreviews{
+    padding: 0;
     .sidebyside{
         display: flex;
         
@@ -120,6 +132,35 @@
                 h3{
                     bottom: 20px;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px){
+    .homepagePreview{
+        flex-direction: column;
+
+        .preview-image{
+            img{
+                width: 100%;
+            }
+        }
+
+        &.text-on-right{
+            .preview-image{
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        &.text-on-left{
+            flex-direction: column-reverse;
+            .preview-image{
+                position: relative;
+                top: 0;
+                // right: -30px;
             }
         }
     }

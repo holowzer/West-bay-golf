@@ -16,7 +16,7 @@ nav{
     position: absolute;
     top: 0;
     z-index: 2;
-    a{
+    a.contactButton{
         width: 130px;
         height: 50px;
         display: flex;
@@ -28,9 +28,9 @@ nav{
         margin-right: 30px;
         background:#6A8C57;
         transition: 0.1s all ease-in;
-    }
-    a:hover{
-        background: rgb(60, 80, 49);
+        &:hover{
+            background: rgb(60, 80, 49);
+        }
     }
 }
 .navButton{

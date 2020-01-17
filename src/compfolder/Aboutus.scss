@@ -1,20 +1,38 @@
 .aboutusContainer{
+    margin-bottom: 120px;
+
+    h2{
+        font-size: 77px;
+        color: #505050;
+    }
+
+
+    h3{
+        font-size: 32px;
+    }
+
     .aboutus-presentation{
-        margin: 120px 0;
+        // margin: 0 150px;
         width: 100%;
+        min-height: 100vh;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: space-around;
         img{
-            width: 500px;
+            width: 100%;
         }
         div{
-            width: 30%;
+            flex: 1;
+            margin: 75px;
+            // width: 30%;
         }
 
         &.text-on-left{
             flex-direction: row-reverse;
+            img{
+                width: 130%;
+            }
         }
     }
 
@@ -30,16 +48,20 @@
 
         display: flex;
 
+        h3{
+            font-size: 32px;
+        }
+
         .preview-image{
             flex: 2;
             img{
-                width: 100%;
+                width: calc(100% + 30px);
             }
         }
 
         .preview-text{
             flex: 1;
-            margin-left: 30px;
+            padding: 90px;
             // max-width: 300px;
         }
 
@@ -63,7 +85,7 @@
             .preview-image{
                 position: relative;
                 top: -30px;
-                right: -30px;
+                // right: -30px;
             }
         }
     }
@@ -116,16 +138,99 @@
         }
     }
 
-    .aboutus-clubhouse-previews{
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        align-items: center;
-        padding: 20px;
-        img{
-            margin: 10px;
-            width: 100%;
+    .aboutus-family{
+        padding-left:150px;
+        div{
+            margin: 0 10px;
+        }
+        .sidebyside-img{
+            flex: 2;
         }
     }
 
+    .aboutus-clubhouse{
+        margin: 0 150px;
+        .aboutus-clubhouse-previews{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            align-items: center;
+            padding: 20px;
+            img{
+                margin: 10px;
+                width: 100%;
+            }
+        }
+        .aboutus-clubhouse-text{
+            padding: 0 100px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 950px){
+    .aboutusContainer{
+        .aboutusPreview{
+            flex-direction: column;
+    
+            .preview-image{
+                img{
+                    width: 100%;
+                }
+            }
+    
+            &.text-on-right{
+                .preview-image{
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+            }
+    
+            &.text-on-left{
+                flex-direction: column-reverse;
+                .preview-image{
+                    position: relative;
+                    top: 0;
+                    // right: -30px;
+                }
+            }
+        }
+
+        .aboutus-family{
+            flex-direction: column;
+            padding-left: 0;
+        }
+
+
+        .aboutus-presentation{
+            flex-direction: column;
+            &.text-on-left{
+                flex-direction: column;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+        .aboutus-clubhouse{
+            margin: 0 50px;
+            flex-direction: column;
+            .aboutus-clubhouse-previews{
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+                align-items: center;
+                padding: 20px;
+                img{
+                    margin: 10px;
+                    width: 100%;
+                }
+            }
+            .aboutus-clubhouse-text{
+                padding: 0;
+            }
+        }
+    }
 }

@@ -3,7 +3,7 @@ footer{
         display: flex;
         text-align: center;
         align-items: center;
-
+        padding: 0 30px;
         div{
             flex: 1;
             flex-grow: 1;
@@ -13,8 +13,16 @@ footer{
             width: 100%;
             /* height: 100%; include this if you don't plan to use align-items: center */ 
             min-width: 0;
-            & > img{
-                max-width: 100%;
+            text-align: left;
+
+            & > *:not(img){
+                margin-left: 50px;
+            }
+
+            img{
+                max-width: 80%;
+                margin-right: 100px;
+                object-fit: contain;
             }
 
             *{
@@ -47,6 +55,11 @@ footer{
             }
         }
 
+        .footer-menu{
+            text-align: left;
+            font-size: 20px;
+        }
+
         .footer-weather{
             margin: 20px;
             border-radius: 30px;
@@ -56,8 +69,9 @@ footer{
             height: 100%;
             text-align: center;
             
-            & > img{
+            img{
                 max-width: 100%;
+                object-fit: contain;
             }
 
             .weather-widget{
@@ -74,6 +88,7 @@ footer{
                 justify-content: center;
                 img{
                     max-width: 100%;
+                    object-fit: contain;
                 }
             }
         }
@@ -94,5 +109,13 @@ footer{
         background: #2a3f36;
         text-align: center;
         padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    footer{
+        .big-footer{
+            flex-direction: column;
+        }
     }
 }

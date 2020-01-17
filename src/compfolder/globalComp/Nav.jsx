@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import navIcon from "../../images/menu.svg"
 import westBayLogo from "../../images/LogowestBay.png"
+import Contact from '../globalComp/contactPages/Contact'
+import GeneralMenu from '../globalComp/GeneralMenu'
 import "./Nav.scss"
 
 let Nav=()=>{
@@ -10,16 +12,23 @@ let Nav=()=>{
             const menu = document.querySelector('.generalMenu')
             menu.classList.remove('toggleMenu')
         })
+
+        const contactButton = document.querySelector('.contactButton')
+        contactButton.addEventListener(('click'),()=>{
+            const menu = document.querySelector('.generalContactContainer')
+            menu.classList.remove('toggleContact')
+        })
     },[])
     return(
      <nav>
         <img className="navButton" src={navIcon} alt="roatan golf club"/>
         <img src={westBayLogo} alt="caribbean west bay"/>
-        <a href="">
+        <a href="#" className="contactButton">
             Contact Us
         </a>
+        <GeneralMenu />
+        <Contact/>
      </nav>
-
     )
 }
 export default Nav

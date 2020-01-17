@@ -1,9 +1,7 @@
 import React from 'react';
-import img0 from "../images/download0.jpg"
 import img1 from "../images/download1.jpg"
 import img2 from "../images/download2.jpg"
 import Slideshow from './globalComp/Slider';
-import GeneralMenu from './globalComp/GeneralMenu'
 import "./Aboutus.scss"
 import Nav from "./globalComp/Nav"
 
@@ -20,7 +18,7 @@ let Aboutus = () => {
                     <img src="/assets/residence-preview.jpg" alt="Property view" />
                 </div>
                 <div>
-                    <h2>Welcome to the <br/> West Bay Golf <br/> Club & Villas</h2>
+                    <h3>Welcome to the <br/> West Bay Golf <br/> Club & Villas</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt recusandae beatae eos, vitae ullam laboriosam nobis facere eveniet officia commodi vero fuga accusantium ducimus veniam atque laborum exercitationem sapiente reprehenderit!</p>
                 </div>
             </div>
@@ -29,7 +27,7 @@ let Aboutus = () => {
                     <img src="/assets/about-us-landing-2.jpg" alt="Why The Black Iguana" />
                 </div>
                 <div>
-                    <h2>Why The <br/> Black Iguana</h2>
+                    <h3>Why The <br/> Black Iguana</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt recusandae beatae eos, vitae ullam laboriosam nobis facere eveniet officia commodi vero fuga accusantium ducimus veniam atque laborum exercitationem sapiente reprehenderit!</p>
                 </div>
             </div>
@@ -39,7 +37,7 @@ let Aboutus = () => {
                     <img src="/assets/golf-preview-2.jpg" alt="Golf preview" />
                 </div>
                 <div className="preview-text">
-                    <h3>The Golf Experience</h3>
+                    <h3>Sharing the passion for Golf</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor
@@ -56,9 +54,9 @@ let Aboutus = () => {
                 </div>
             </div>
 
-            <div className="sidebyside">
+            <div className="aboutus-family sidebyside">
                 <div className="sidebyside-col">
-                    <h2>The Family</h2>
+                    <h3>The Family</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor
@@ -89,7 +87,7 @@ let Aboutus = () => {
                 {/* TODO: MISSING PSEUDO-GALLERY-SLIDER W/ TEXT ON RIGHT  */}
             </div>
 
-            <div className="sidebyside">
+            <div className="sidebyside aboutus-clubhouse">
                 <div className="aboutus-clubhouse-previews">
                     <div className="sidebyside">
                         <div>
@@ -101,7 +99,7 @@ let Aboutus = () => {
                     </div>
                     <img src="/assets/about-us-clubhouse-1.jpg" alt="Club House 3"/>
                 </div>
-                <div>
+                <div className="aboutus-clubhouse-text">
                     <h3>Join Us for a <br/>Bite After Your <br/>Round</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur
@@ -115,7 +113,6 @@ let Aboutus = () => {
                     </p>
                 </div>
             </div>
-            <GeneralMenu/>
         </div>
     )
 }
