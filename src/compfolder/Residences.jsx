@@ -3,6 +3,7 @@ import React from 'react';
 import img0 from "../images/download0.jpg"
 import img1 from "../images/download1.jpg"
 import img2 from "../images/download2.jpg"
+import placeholder from "../images/placeHolder.png"
 import Slideshow from "./globalComp/Slider";
 import Nav from "./globalComp/Nav";
 import GeneralMenu from "./globalComp/GeneralMenu";
@@ -41,6 +42,78 @@ const Residences = ()=>{
                 </p>
             </div>
         </div>
+        <div className="advantages">
+            <div className="advantagesHead">
+                <h2>the title of arguments zone</h2>
+            </div>
+            <div className="advantagesContent">
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>Gated Community</h5>
+                </div>
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>9-hole <br/> Golf Course</h5>
+                </div>
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>Club House</h5>
+                </div>
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>Breathtaking Views</h5>
+                </div>
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>Close Beach Proximity</h5>
+                </div>
+                <div className="argumentSticker">
+                    <img src={placeholder} alt=""/>
+                    <h5>Optional Rental Programs</h5>
+                </div>
+            </div>
+        </div>
+        <div className="residences-center-block">
+             <h2>A stunning tropical view from <br/>every villas.</h2>
+        </div>
+        <div className="galery">
+            <div className="galeryLeft">
+                <img src={img0} alt=""/>
+                <p>a peacefull place with a sweet taste of paradise</p>
+            </div>
+            <div className="galeryRight">
+                <img src={img0} alt=""/>
+                <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
+            </div>
+
+            <div className="galeryLeft">
+                <img src={img0} alt=""/>
+                <p>Your mother will love those big fields of green birds flying.</p>
+            </div>
+            <div className="galeryRight">
+                <img src={img0} alt=""/>
+                <p>Your mother will love those big fields of green birds flying.</p>
+            </div>
+
+            <div className="galeryLeft">
+                <img src={img0} alt=""/>
+                <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
+            </div>
+            <div className="galeryRight">
+                <img src={img0} alt=""/>
+                <p>Your mother will love those big fields of green birds flying.</p>
+            </div>
+
+            <div className="galeryLeft">
+                <img src={img0} alt=""/>
+                <p>Your mother will love those big fields of green birds flying.</p>
+            </div>
+            <div className="galeryRight">
+                <img src={img0} alt=""/>
+                <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
+            </div>
+      </div>
+
 
 
 
