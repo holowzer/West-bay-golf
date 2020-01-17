@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import img1 from "../../../images/download1.jpg"
 import "./GlobalContact.scss"
 import close from '../../../images/close.svg'
 import { Link } from 'react-router-dom';

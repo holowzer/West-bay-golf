@@ -1,5 +1,17 @@
 @import "~video-react/styles/scss/video-react";
 
+.homepageContainer{
+    h2{
+        font-size: 77px;
+        color: #505050;
+    }
+
+
+    h3{
+        font-size: 32px;
+    }
+}
+
 .homepageNavContainer{
     position: relative;
 }
@@ -82,6 +94,7 @@
         bottom: 20px;
         left: 20px;
         z-index: 2;
+        font-size: 24px;
         color: white;
     }
 }
