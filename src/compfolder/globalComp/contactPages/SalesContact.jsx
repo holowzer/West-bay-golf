@@ -20,7 +20,9 @@ const SalesContact = () => {
 
                 <div className="contact-form-block">
                     <div className="company-info">
-                        <img src="/sotheby-logo.png" alt="Sotheby's International Realty logo" />
+                        <div>
+                            <img src="/sotheby-logo.png" alt="Sotheby's International Realty logo" />
+                        </div>
                         <div>
                             <a href="phone:7132613315" title="Call Sotheby's International Realty">713 261 3315</a>
                             <a href="phone:+50424453222" title="Call Sotheby's International Realty">+ 504 2445 3222</a>

@@ -28,9 +28,9 @@ nav{
         margin-right: 30px;
         background:#6A8C57;
         transition: 0.1s all ease-in;
-    }
-    a:hover{
-        background: rgb(60, 80, 49);
+        &:hover{
+            background: rgb(60, 80, 49);
+        }
     }
 }
 .navButton{

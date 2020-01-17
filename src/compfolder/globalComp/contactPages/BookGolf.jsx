@@ -20,7 +20,9 @@ const BookGolf = () => {
 
                 <div className="contact-form-block">
                     <div className="company-info">
-                        <img src="/blackiguana-logo.png" alt="Black Iguana logo"/>
+                        <div>
+                            <img src="/blackiguana-logo.png" alt="Black Iguana logo"/>
+                        </div>
                         <div>
                             <a href="phone:+504 9483-7049" title="Call West Bay">+504 9483-7049</a>
                             <a href="mailto:golf@westbaygolfclubvillas.com" title="Contact West Bay">golf@westbaygolfclubvillas.com</a>
@@ -49,11 +51,11 @@ const BookGolf = () => {
 
                         <div>
                             <label>
-                                Data
+                                Date
                                 <input type="date" name="date" />
                             </label>
                             <label>
-                                Name
+                                Time
                                 <input type="time" name="time" />
                             </label>
                             <label>

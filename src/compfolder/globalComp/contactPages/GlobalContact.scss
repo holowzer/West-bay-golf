@@ -78,10 +78,12 @@
                     }
         
                     button{
+                        float: right;
                         background: #fcd024;
                         border: none;
                         border-radius: 5px;
                         padding: 10px 20px;
+                        font-size: 16px;
                         font-family: inherit;
                         font-weight: bold;
                         cursor: pointer;
