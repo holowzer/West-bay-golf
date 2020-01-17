@@ -3,7 +3,7 @@ footer{
         display: flex;
         text-align: center;
         align-items: center;
-
+        padding: 0 30px;
         div{
             flex: 1;
             flex-grow: 1;
@@ -13,8 +13,15 @@ footer{
             width: 100%;
             /* height: 100%; include this if you don't plan to use align-items: center */ 
             min-width: 0;
+            text-align: left;
+
+            & > *:not(img){
+                margin-left: 50px;
+            }
+
             & > img{
-                max-width: 100%;
+                max-width: 80%;
+                margin-right: 100px;
             }
 
             *{
@@ -45,6 +52,11 @@ footer{
                 font-weight: bold;
                 margin-bottom: 5px;
             }
+        }
+
+        .footer-menu{
+            text-align: left;
+            font-size: 20px;
         }
 
         .footer-weather{

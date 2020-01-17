@@ -41,15 +41,13 @@
     .preview-image{
         flex: 2;
         img{
-            width: 100%;
+            width: calc(100% + 30px);
         }
     }
 
     .preview-text{
         flex: 1;
-        margin-left: 30px;
-        // margin-right:440px;
-        // max-width: 300px;
+        padding: 90px;
     }
 
     .preview-cta{
@@ -72,7 +70,7 @@
         .preview-image{
             position: relative;
             top: -30px;
-            right: -30px;
+            // right: -30px;
         }
     }
 }
@@ -83,12 +81,13 @@
         position: absolute;
         bottom: 20px;
         left: 20px;
-        z-index: 9999;
+        z-index: 2;
         color: white;
     }
 }
 
 .homepageGlobalPreviews{
+    padding: 0;
     .sidebyside{
         display: flex;
         

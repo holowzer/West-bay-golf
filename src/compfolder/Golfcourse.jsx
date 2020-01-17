@@ -3,7 +3,6 @@ import img0 from "../images/download0.jpg"
 import img1 from "../images/download1.jpg"
 import img2 from "../images/download2.jpg"
 import Slideshow from './globalComp/Slider';
-import GeneralMenu from "./globalComp/GeneralMenu"
 import "./Golfcourse.scss"
 import Nav from "./globalComp/Nav"
 
@@ -68,11 +67,10 @@ let Golfcourse = ()=>{
                 </div>
             </div>
             <div className="blueDivCTA">
-                    <h2>Book a tee time with us now!</h2>
-                    <h3>we recommand you to reserve your tee time in advance !</h3>
-                    <a href="">Book tee times</a>
-                </div>
-        <GeneralMenu/>
+                <h2>Book a tee time with us now!</h2>
+                <h3>we recommand you to reserve your tee time in advance !</h3>
+                <a href="">Book tee times</a>
+            </div>
         </div>
     )
 }

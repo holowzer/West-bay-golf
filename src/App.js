@@ -22,7 +22,7 @@ function App() {
         <Route path="/" exact component={Homepage}/>
         <Route path="/golf" component={Golfcourse}/>
         <Route path="/about-us" component={Aboutus}/>
-        <Route path="/Residences" component={Residences}/>
+        <Route path="/residences" component={Residences}/>
 
         <Route path="/contact/book-golf" component={BookGolf}/>
         <Route path="/contact/real-estate-sales" component={SalesContact}/>

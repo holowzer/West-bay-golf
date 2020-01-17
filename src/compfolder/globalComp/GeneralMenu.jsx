@@ -19,17 +19,17 @@ const GeneralMenu = ()=>{
                     </div>
                     <div className="midMenu">
                         <div className="leftLinks">
-                            <Link to="/Golf">
+                            <Link to="/golf">
                                 <div href="">Golf</div>
                             </Link>
                             <Link to="/about-us">
                                 <div href="">About Us</div>
                             </Link>
-                            <Link to="/Residences">
+                            <Link to="/residences">
                             <div href="">The Residences</div>
                             </Link>
-                            <Link to="/Galery">
-                                <div href="">Galery</div>
+                            <Link to="/gallery">
+                                <div href="">Gallery</div>
                             </Link>
                             <Link to="/">
                                 <div href="">Homepage</div>

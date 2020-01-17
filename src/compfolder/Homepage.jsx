@@ -1,6 +1,5 @@
 import React from 'react';
 import Slideshow from './globalComp/Slider'
-import GeneralMenu from "./globalComp/GeneralMenu"
 import { Player, Shortcut } from 'video-react'
 import "./Homepage.scss"
 import Nav from "./globalComp/Nav"
@@ -112,7 +111,6 @@ let Homepage = () => {
                     </div>
                 </div>
             </div>
-        <GeneralMenu/>
         </div>
     )
 }

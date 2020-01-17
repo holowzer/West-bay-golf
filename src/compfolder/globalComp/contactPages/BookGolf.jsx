@@ -1,15 +1,13 @@
 import React from 'react';
-import westBayLogo from "../../../images/LogowestBay.png"
-import img1 from "../../../images/download1.jpg"
 import "./GlobalContact.scss"
 import Nav from "../../globalComp/Nav"
 
 const BookGolf = () => {
     return (
         <div className="contactContainer">
-            <div>
+            <div className="short-nav-container">
                 <Nav />
-                <img src={img1} alt="Navigation" className="nav-image-short"/>
+                <img src="/assets/golf-preview-2.jpg" alt="Navigation" className="nav-image-short"/>
             </div>
 
             <h1>We Look Forward to Connecting Soon!</h1>

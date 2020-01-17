@@ -1,8 +1,15 @@
 .contactContainer{
-    .nav-image-short{
-        width: 100%;
+    .short-nav-container{
         height: 110px;
+        margin-left: -5px;
+        margin-top: -5px;
+        overflow: hidden;
+    }
+    .nav-image-short{
+        width: 110%;
+        height: 120px;
         object-fit: cover;
+        filter: blur(3px);
     }
 
     .contact-form-block{
@@ -54,4 +61,57 @@
             }
         }
     }
+}
+
+.generalContactContainer{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #2A3F36;
+    z-index: 2000;
+    transition: all ease-in 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.toggleContact{
+        transform: translateX(100vw);
+    }
+    .topDiv{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 30px;
+            margin: 30px;
+        }
+    }
+
+    .midMenu{
+        width: 80%;
+        background: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h3{
+            font-size: 42px;
+        }
+
+        .contact-cta{
+            background: #FCD024;
+            color: black;
+            width: 380px;
+            height: 110px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    // display: flex;
 }
