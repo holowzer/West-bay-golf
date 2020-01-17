@@ -136,3 +136,32 @@
         }
     }
 }
+
+@media screen and (max-width: 950px){
+    .homepagePreview{
+        flex-direction: column;
+
+        .preview-image{
+            img{
+                width: 100%;
+            }
+        }
+
+        &.text-on-right{
+            .preview-image{
+                position: relative;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        &.text-on-left{
+            flex-direction: column-reverse;
+            .preview-image{
+                position: relative;
+                top: 0;
+                // right: -30px;
+            }
+        }
+    }
+}
