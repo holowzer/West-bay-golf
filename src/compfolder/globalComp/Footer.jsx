@@ -41,13 +41,17 @@ let Footer = () => {
                     <div className="weather-widget">
                         <a className="weatherwidget-io" href="https://forecast7.com/en/16d32n86d54/coxen-hole/?unit=us" data-label_1="ROATÁN" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-textcolor="#FFF" >ROATÁN WEATHER</a>
                     </div>
-                    <img src="/sotheby-logo.png" alt=""/>
+                    <a href="https://roatansir.com/west-bay-golf-club-villas/" target="_blank">
+                        <img src="/sotheby-logo.png" alt=""/>
+                    </a>
                     <div className="footer-logo-vertical-align">
                         <div>
                             <img src="/blackiguana-logo.png" alt=""/>
                         </div>
                         <div>
-                            <img src="/dyedesign-logo.png" alt="" />
+                            <a href="https://www.dyedesigns.com/perry-dye/" target="_blank">
+                                <img src="/dyedesign-logo.png" alt="" />
+                            </a>
                         </div>
                     </div>
                 </div>
