@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./GeneralMenu.scss"
 import close from "../../images/close.svg"
+import sothebys from "../../images/sothebys.png"
 import { Link } from 'react-router-dom';
 const GeneralMenu = ()=>{
     useEffect(()=>{
@@ -19,28 +20,30 @@ const GeneralMenu = ()=>{
                     </div>
                     <div className="midMenu">
                         <div className="leftLinks">
+                        <Link to="/">
+                                <div href="">Homepage</div>
+                            </Link>
                             <Link to="/golf">
                                 <div href="">Golf</div>
-                            </Link>
-                            <Link to="/about-us">
-                                <div href="">About Us</div>
                             </Link>
                             <Link to="/residences">
                             <div href="">The Residences</div>
                             </Link>
-                            <Link to="/gallery">
-                                <div href="">Gallery</div>
+                            <Link to="/about-us">
+                                <div href="">About Us</div>
                             </Link>
-                            <Link to="/">
-                                <div href="">Homepage</div>
-                            </Link>
+
 
 
             </div>
                         <div className="rightLinks">
                             <h3>Learn more about our villas</h3>
-                            <div className="whiteSotheby"></div>
-                            <div className="contactCta"></div>
+                            <div className="whiteSotheby">
+                                <img src={sothebys} alt=""/>
+                            </div>
+                            <div className="contactCta">
+                                <a href="">Contact Us</a>
+                            </div>
                         </div>
                     </div>
         </div>
