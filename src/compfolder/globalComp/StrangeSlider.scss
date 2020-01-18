@@ -22,7 +22,7 @@
             width:100%; height:100%;
         }
         .littleWindows{
-            width: 560px;
+            width: 680px;
             height: 250px;
             background: rgba(61, 23, 23, 0);
             position: absolute;
@@ -51,7 +51,11 @@
                 align-items: center;
                 font-size: 2.8em;
                 cursor: pointer;
+                transition: all 0.1s ease-in;
 
+            }
+            .greyDiv:hover{
+                background: rgb(70, 70, 70);
             }
         }
     
