@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import "./StrangeSlider.scss"
-import img0 from "../../images/download0.jpg"
-import img1 from "../../images/download1.jpg"
-import img2 from "../../images/download2.jpg"
-import img3 from "../../images/download3.jpg"
+import img0 from "../../images/airy-min.jpeg"
+import img1 from "../../images/foodish-min.jpg"
+import img2 from "../../images/golfoverview-min.jpg"
+import img3 from "../../images/sunset.jfif"
 
 // let imageFolder = [img0,img1,img2,img3]
 
@@ -46,7 +46,7 @@ const imageFolderMove=()=>{
             </div>
 
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non, at voluptatibus, necessitatibus facilis repellendus illo magnam perspiciatis aliquam animi veniam veritatis! Unde fuga dolore architecto numquam beatae? Reiciendis, sunt?</p>
+            <p>" An amazing marketing quote just for you."</p>
 
         </div>
     )

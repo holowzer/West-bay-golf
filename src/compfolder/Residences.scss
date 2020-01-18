@@ -37,6 +37,7 @@
     align-items: center;
     img{
         width: 700px;
+        box-shadow:13px 18px 19px #00000057;
         
     }
     .lushPhoto{
@@ -92,6 +93,10 @@
 }
 
 .galery{
+    p{
+        font-style: italic;
+        font-weight: 100;
+    }
     .galeryLeft{
         display: flex;
         justify-content: center;
@@ -112,6 +117,47 @@
         img{
             width: 550px;
             
+        }
+    }
+}
+.overLayer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 170px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.664);
+    z-index: 1;
+    h4{
+        font-size: 1.3em;
+        margin-left: 65px;
+
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .rightCTA{
+        border-radius: 5px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        background: #122837;
+        #spanLine{
+            display: inline-block;
+            transform: scaleX(3);
+            margin-left: 10px;
         }
     }
 }

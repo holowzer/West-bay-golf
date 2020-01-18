@@ -1,19 +1,38 @@
 import "./Residences.scss"
 import React from 'react';
-import img0 from "../images/download0.jpg"
-import img1 from "../images/download1.jpg"
-import img2 from "../images/download2.jpg"
+import galery1 from "../images/galery1.jpg"
+import galery2 from "../images/galery2.jpeg"
+import galery3 from "../images/galery3-min.jpg"
+import galery4 from "../images/galery4-min.jpg"
+import galery5 from "../images/galery5-min.jpg"
+import galery6 from "../images/galery6-min.jpg"
+
+
+import img1 from "../images/indoor1.jpg"
+import img2 from "../images/house4.jpg"
 import placeholder from "../images/placeHolder.png"
 import Slideshow from "./globalComp/Slider";
 import Nav from "./globalComp/Nav";
 import GeneralMenu from "./globalComp/GeneralMenu";
 import StrangeSlider from "./globalComp/StrangeSlider";
+import house1 from "../images/carribeanvilla-min.jpg"
+import house2 from "../images/house2.jpg"
+import house3 from "../images/house3.jpg"
 
 const Residences = ()=>{
     return(
         <div className="Residences">
         <Nav/>
-        <Slideshow size="normal" img={[img0, img1, img2]}/>
+        <div className="moto"><h2>Welcome to the <br/> Black Iguana Golf-Club.</h2></div>
+
+        <div className="overLayer">
+            <h4>Book your place !</h4>
+                <div className="rightCTA">
+                    <a href="">Find your perfect house <span id='spanLine'>-</span></a>
+                </div>
+                <h3></h3>
+            </div>
+        <Slideshow size="normal" img={[house1, house2, house3]}/>
         <div className="residences-center-block">
              <h2>Conceived in the <br/>Heart of the Caribbean</h2>
         </div>
@@ -29,7 +48,7 @@ const Residences = ()=>{
             </div>
 
             <div className="villaPreviewContainer">
-                <img src={img0} alt=""/>
+                <img src={img2} alt=""/>
             </div>
         </div>
         <div className="lushTropcial">
@@ -78,40 +97,32 @@ const Residences = ()=>{
         </div>
         <div className="galery">
             <div className="galeryLeft">
-                <img src={img0} alt=""/>
+                <img src={galery1} alt=""/>
                 <p>a peacefull place with a sweet taste of paradise</p>
             </div>
             <div className="galeryRight">
-                <img src={img0} alt=""/>
+                <img src={galery2} alt=""/>
                 <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
             </div>
 
             <div className="galeryLeft">
-                <img src={img0} alt=""/>
+                <img src={galery3} alt=""/>
                 <p>Your mother will love those big fields of green birds flying.</p>
             </div>
             <div className="galeryRight">
-                <img src={img0} alt=""/>
+                <img src={galery4} alt=""/>
                 <p>Your mother will love those big fields of green birds flying.</p>
             </div>
 
             <div className="galeryLeft">
-                <img src={img0} alt=""/>
+                <img src={galery5} alt=""/>
                 <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
             </div>
             <div className="galeryRight">
-                <img src={img0} alt=""/>
+                <img src={galery6} alt=""/>
                 <p>Your mother will love those big fields of green birds flying.</p>
             </div>
 
-            <div className="galeryLeft">
-                <img src={img0} alt=""/>
-                <p>Your mother will love those big fields of green birds flying.</p>
-            </div>
-            <div className="galeryRight">
-                <img src={img0} alt=""/>
-                <p>Cigarettes on cigarettes people will never stop to drive cars.</p>
-            </div>
       </div>
 
 

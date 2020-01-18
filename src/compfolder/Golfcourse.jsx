@@ -1,7 +1,13 @@
 import React from 'react';
-import img0 from "../images/download0.jpg"
-import img1 from "../images/download1.jpg"
-import img2 from "../images/download2.jpg"
+import img0 from "../images/golf2-min.jpeg"
+import img1 from "../images/golf3-min.jpeg"
+import img2 from "../images/golf4-min.jpeg"
+import golf1 from "../images/golf1-min.jpeg"
+import golf5 from "../images/golf5-min.jpeg"
+import golf6 from "../images/golf6-min.jpeg"
+import golf8 from "../images/golf8-min.jpg"
+import golf9 from "../images/galery3-min.jpg"
+import golf10 from "../images/roatanluxurytravel-min.jpg"
 import Slideshow from './globalComp/Slider';
 import "./Golfcourse.scss"
 import Nav from "./globalComp/Nav"
@@ -24,7 +30,7 @@ let Golfcourse = ()=>{
             </div>
             <div className="welcomeDiv">
                 <div>
-                    <img src={img1} alt=""/>
+                    <img src={golf1} alt=""/>
                 </div>
                 <div>
                     <h2>enter the paradise with 1000$</h2>
@@ -40,13 +46,13 @@ let Golfcourse = ()=>{
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium perspiciatis nemo soluta aspernatur, at optio perferendis cupiditate tempora, obcaecati repudiandae ut fuga possimus cumque aut illo fugiat expedita quaerat.</p>
                 </div>
                 <div className="photoArgumentFrame">
-                 <img className="rightPhoto" src={img1} alt=""/>
+                 <img className="rightPhoto" src={golf5} alt=""/>
                 </div>
 
             </div>
             <div className="arguments">
                 <div className="photoArgumentFrame">
-                 <img className="leftPhoto" src={img1} alt=""/>
+                 <img className="leftPhoto" src={golf6} alt=""/>
                 </div>
                 <div className="textArgument">
                     <h2>our argument is here</h2>
@@ -55,11 +61,11 @@ let Golfcourse = ()=>{
             </div>
             <div className="relative">
                 <h3 className="designQuote">World Class Perry Dye <br/> Design Golf Course.</h3>
-            <Slideshow size="little" img={[img0, img1, img2]} />
+            <Slideshow size="little" img={[golf10, golf9]} />
             </div>
             <div className="golfMap">
                 <div className="googleMapGolf">
-                    <img src={img0} alt=""/>
+                    <img src={golf8} alt=""/>
                 </div>
                 <div className="mapExplaination">
                     <h2>the iguana course<br/> of love.</h2>
