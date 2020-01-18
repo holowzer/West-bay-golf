@@ -11,9 +11,9 @@ let Footer = () => {
                 <div className="footer-with-logo">
                     <img src={westBayLogo} alt="Caribbean West Bay" />
                     <div>
-                        <a href="#" className="social-button" title="Facebook">f</a>
-                        <a href="#" className="social-button" title="Twitter">t</a>
-                        <a href="#" className="social-button" title="Instagram">i</a>
+                        <a href="https://www.facebook.com/blackiguanagolfroatan" target="_blank" className="social-button" title="Facebook">f</a>
+                        {/* <a href="#" className="social-button" title="Twitter">t</a> */}
+                        <a href="https://www.instagram.com/explore/tags/westbaygolf/" target="_blank" className="social-button" title="Instagram">i</a>
                     </div>
                     <p>
                         Palm Ln, West Bay, <br/>
@@ -41,6 +41,7 @@ let Footer = () => {
                     <div className="weather-widget">
                         <a className="weatherwidget-io" href="https://forecast7.com/en/16d32n86d54/coxen-hole/?unit=us" data-label_1="ROATÁN" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-textcolor="#FFF" >ROATÁN WEATHER</a>
                     </div>
+                   
                     <a href="https://roatansir.com/west-bay-golf-club-villas/" target="_blank">
                         <img src="/sotheby-logo.png" alt=""/>
                     </a>
