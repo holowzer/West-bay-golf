@@ -8,6 +8,7 @@ import golf6 from "../images/golf6-min.jpeg"
 import golf8 from "../images/golf8-min.jpg"
 import golf9 from "../images/galery3-min.jpg"
 import golf10 from "../images/roatanluxurytravel-min.jpg"
+import mySvg from "../images/mySvg.png"
 import Slideshow from './globalComp/Slider';
 import "./Golfcourse.scss"
 import Nav from "./globalComp/Nav"
@@ -36,6 +37,7 @@ let Golfcourse = ()=>{
                     <h2>enter the paradise with 1000$</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt recusandae beatae eos, vitae ullam laboriosam nobis facere eveniet officia commodi vero fuga accusantium ducimus veniam atque laborum exercitationem sapiente reprehenderit!</p>
                 </div>
+           <img id="mySvg" src={mySvg} alt=""/>
             </div>
             <div className="quoteMarket">
                 <span>The best quote we have will make you slowly melt. <br/> You just have to taste our paradise.  </span>

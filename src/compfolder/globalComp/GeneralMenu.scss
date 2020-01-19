@@ -6,7 +6,7 @@
     left: 0;
     background: rgb(62, 136, 204);
     z-index: 2000;
-    transition: all ease-in 0.5s;
+    transition: all cubic-bezier(0.115, 0.810, 0.055, 1) 0.5s;
     
     &.toggleMenu{   
         transform: translateX(-100vw);

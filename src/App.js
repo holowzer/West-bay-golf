@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Homepage from "./compfolder/Homepage"
 import Golfcourse from "./compfolder/Golfcourse"
-
+import {ParallaxProvider} from "react-scroll-parallax"
 import BookGolf from './compfolder/globalComp/contactPages/BookGolf'
 import SalesContact from './compfolder/globalComp/contactPages/SalesContact'
 import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
@@ -16,7 +16,7 @@ import Residences from './compfolder/Residences';
 
 function App() {
   return (
-
+<ParallaxProvider>
     <Router>
       <div className="App">
         <Route path="/" exact component={Homepage}/>
@@ -30,6 +30,7 @@ function App() {
         <Footer/>
       </div>
     </Router>
+    </ParallaxProvider>
   )
 }
 
