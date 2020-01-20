@@ -37,3 +37,21 @@ nav{
   display: flex;
     
 }
+@media screen and (max-width : 500px){
+    nav img{
+        height  : 50px;
+    }
+    nav img:first-child{
+        height  : 30px;
+        margin-left: 20px;
+        color: white;
+    }
+   nav a.contactButton{
+        width: 100px;
+        height: 40px;
+        font-size: 0.9em;
+        margin-right: 10px;
+
+    }
+    
+}

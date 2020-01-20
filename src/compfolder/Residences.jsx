@@ -1,6 +1,6 @@
 import "./Residences.scss"
-import { Parallax } from 'react-scroll-parallax';
-import React from 'react';
+import { Parallax,useController } from 'react-scroll-parallax';
+import React, { useLayoutEffect } from 'react';
 import galery1 from "../images/galery1.jpg"
 import galery2 from "../images/galery2.jpeg"
 import galery3 from "../images/galery3-min.jpg"
@@ -28,7 +28,25 @@ import house3 from "../images/house3.jpg"
 
 
 
-const Residences = ()=>{
+const Residences = (props)=>{
+
+
+    const ParallaxCache = () => {
+        const { parallaxController } = useController();
+     
+        useLayoutEffect(() => {
+            const handler = () => parallaxController.update();
+            window.addEventListener('load', handler);
+            return () => window.removeEventListener('load', handler);
+        }, [parallaxController]);
+     
+        return null;
+    };
+    
+    ParallaxCache()
+
+    
+
 
     return(
         <div className="Residences">
@@ -52,7 +70,7 @@ const Residences = ()=>{
         </div>
         <div className="tooClassicDiv">
         <div className="villaPreviewText">
-        <Parallax  y={[36,-46]}>
+        <Parallax disabled={props.disabled}  y={[36,-46]}>
                 <h2>make your mother proud</h2>
                 <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. 
                 </p>
@@ -67,11 +85,11 @@ const Residences = ()=>{
             <div className="lushPhoto">
     <img src={img1} alt=""/>
             </div>
-            <Parallax  y={[36,-46]}>
+            <Parallax disabled={props.disabled}  y={[36,-46]}>
 
             <div className="lushText">
 
-            <h2>lush tropical damn !</h2>
+            <h2>lush tropical damn ! ={props.disabled}</h2>
                 <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv.</p>
             </div>
             </Parallax>
@@ -119,7 +137,7 @@ const Residences = ()=>{
 
             </div>
             <div className="galeryRight">
-            <Parallax  y={[26,6]}>
+            <Parallax disabled={props.disabled}  y={[26,6]}>
                 <img preload="auto" className="rellax" data-rellax-speed="4" src={galery2} alt=""/>
                 <p>A challenging 9-hole !</p>
                 </Parallax>
@@ -127,14 +145,14 @@ const Residences = ()=>{
             </div>
 
             <div className="galeryLeft">
-            <Parallax  y={[-20,28]}>
+            <Parallax disabled={props.disabled}  y={[-20,28]}>
                 <img preload="auto" className="rellax" src={galery3} alt=""/>
                 <p>Well indicated and easy to travel.</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
-            <Parallax  y={[10,-10]}>
+            <Parallax disabled={props.disabled}  y={[10,-10]}>
                 <img preload="auto" data-rellax-speed="2" className="rellax" src={galery4} alt=""/>
                 <p>The grass is always green and the sky blue!</p>
                 </Parallax>
@@ -142,7 +160,7 @@ const Residences = ()=>{
             </div>
 
             <div className="galeryLeft">
-            <Parallax  y={[-30,18]}>
+            <Parallax disabled={props.disabled}  y={[-30,18]}>
                 <img preload="auto" className="rellax" src={galery5} alt=""/>
                 <p>the greenery is astonishing and relaxing.</p>
                 </Parallax>
@@ -150,7 +168,7 @@ const Residences = ()=>{
             </div>
 
             <div className="galeryRight">
-            <Parallax  y={[20,-5]}>
+            <Parallax disabled={props.disabled}  y={[20,-5]}>
 
                 <img preload="auto" className="rellax" src={galery6} alt=""/>
                 <p>Your house is always near..</p>

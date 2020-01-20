@@ -114,8 +114,14 @@ footer{
 
 @media screen and (max-width: 950px){
     footer{
-        .big-footer{
-            flex-direction: column;
-        }
+         .big-footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0 0 !important;
+}
     }
 }

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import './App.css';
 import Homepage from "./compfolder/Homepage"
 import Golfcourse from "./compfolder/Golfcourse"
-import {ParallaxProvider} from "react-scroll-parallax"
+import {ParallaxProvider,withController,useController,parallaxController} from "react-scroll-parallax"
 import BookGolf from './compfolder/globalComp/contactPages/BookGolf'
 import SalesContact from './compfolder/globalComp/contactPages/SalesContact'
 import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
@@ -15,14 +15,20 @@ import Residences from './compfolder/Residences';
 
 
 function App() {
+let responsive=false
+
+if(window.innerWidth<800){
+  responsive=true
+}
+
   return (
 <ParallaxProvider>
     <Router>
       <div className="App">
         <Route path="/" exact component={Homepage}/>
-        <Route path="/golf" component={Golfcourse}/>
+        <Route path="/golf" render={(props) => <Golfcourse disabled={responsive} isAuthed={true} />}/>
         <Route path="/about-us" component={Aboutus}/>
-        <Route path="/residences" component={Residences}/>
+        <Route path="/residences" render={(props) => <Residences disabled={responsive} isAuthed={true} />}/>
 
         <Route path="/contact/book-golf" component={BookGolf}/>
         <Route path="/contact/real-estate-sales" component={SalesContact}/>

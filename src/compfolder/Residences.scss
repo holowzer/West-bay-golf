@@ -169,3 +169,17 @@
         }
     }
 }
+
+@media screen and (max-width : 500px){
+    .moto h2 {
+        font-size: 2.3em;
+    }
+    .moto {
+        position: absolute;
+        left: 0px;
+        bottom: 210px;
+        z-index: 1;
+        text-align: center;
+        color: white;
+    }
+}
