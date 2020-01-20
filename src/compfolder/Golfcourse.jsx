@@ -10,6 +10,7 @@ import golf9 from "../images/galery3-min.jpg"
 import golf10 from "../images/roatanluxurytravel-min.jpg"
 import mySvg from "../images/mySvg.png"
 import Slideshow from './globalComp/Slider';
+import { Parallax } from 'react-scroll-parallax';
 import "./Golfcourse.scss"
 import Nav from "./globalComp/Nav"
 
@@ -44,8 +45,10 @@ let Golfcourse = ()=>{
             </div>
             <div className="arguments">
                 <div className="textArgument">
+                <Parallax  y={[36,-46]}>
                     <h2>our argument is here</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium perspiciatis nemo soluta aspernatur, at optio perferendis cupiditate tempora, obcaecati repudiandae ut fuga possimus cumque aut illo fugiat expedita quaerat.</p>
+                    </Parallax>
                 </div>
                 <div className="photoArgumentFrame">
                  <img className="rightPhoto" src={golf5} alt=""/>
@@ -57,8 +60,11 @@ let Golfcourse = ()=>{
                  <img className="leftPhoto" src={golf6} alt=""/>
                 </div>
                 <div className="textArgument">
+                <Parallax  y={[36,-46]}>
                     <h2>our argument is here</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium perspiciatis nemo soluta aspernatur, at optio perferendis cupiditate tempora, obcaecati repudiandae ut fuga possimus cumque aut illo fugiat expedita quaerat.</p>
+                   
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo accusantium perspiciatis nemo soluta aspernatur, at optio perferendis cupiditate tempora, obcaecati repudiandae ut fuga possimus cumque aut illo fugiat expedita quaerat.</p>
+                 </Parallax>
                 </div>
             </div>
             <div className="relative">
@@ -70,8 +76,11 @@ let Golfcourse = ()=>{
                     <img src={golf8} alt=""/>
                 </div>
                 <div className="mapExplaination">
+                <Parallax  y={[36,-46]}>
+
                     <h2>the iguana course<br/> of love.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis in id nostrum rerum quisquam error sit necessitatibus, quibusdam, dolores nemo a suscipit neque autem unde! Commodi hic vitae amet aliquam!</p>
+                    </Parallax>
                 </div>
             </div>
             <div className="blueDivCTA">

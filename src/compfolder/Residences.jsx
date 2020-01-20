@@ -52,9 +52,11 @@ const Residences = ()=>{
         </div>
         <div className="tooClassicDiv">
         <div className="villaPreviewText">
+        <Parallax  y={[36,-46]}>
                 <h2>make your mother proud</h2>
                 <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. 
                 </p>
+                </Parallax>
             </div>
 
             <div className="villaPreviewContainer">
@@ -68,6 +70,7 @@ const Residences = ()=>{
             <Parallax  y={[36,-46]}>
 
             <div className="lushText">
+
             <h2>lush tropical damn !</h2>
                 <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv.</p>
             </div>
@@ -109,15 +112,15 @@ const Residences = ()=>{
         </div>
         <div className="galery">
             <div className="galeryLeft">
-            <Parallax  y={[18,0]}>
-                <img  src={galery1} alt=""/>
+            <Parallax  y={[0,0]}>
+                <img  preload="auto" src={galery1} alt=""/>
                 <p>a peacefull place with a sweet taste of paradise</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
             <Parallax  y={[26,6]}>
-                <img className="rellax" data-rellax-speed="4" src={galery2} alt=""/>
+                <img preload="auto" className="rellax" data-rellax-speed="4" src={galery2} alt=""/>
                 <p>A challenging 9-hole !</p>
                 </Parallax>
 
@@ -125,14 +128,14 @@ const Residences = ()=>{
 
             <div className="galeryLeft">
             <Parallax  y={[-20,28]}>
-                <img className="rellax" src={galery3} alt=""/>
+                <img preload="auto" className="rellax" src={galery3} alt=""/>
                 <p>Well indicated and easy to travel.</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
-            <Parallax  y={[15,-20]}>
-                <img data-rellax-speed="2" className="rellax" src={galery4} alt=""/>
+            <Parallax  y={[10,-10]}>
+                <img preload="auto" data-rellax-speed="2" className="rellax" src={galery4} alt=""/>
                 <p>The grass is always green and the sky blue!</p>
                 </Parallax>
 
@@ -140,16 +143,16 @@ const Residences = ()=>{
 
             <div className="galeryLeft">
             <Parallax  y={[-30,18]}>
-                <img className="rellax" src={galery5} alt=""/>
+                <img preload="auto" className="rellax" src={galery5} alt=""/>
                 <p>the greenery is astonishing and relaxing.</p>
                 </Parallax>
 
             </div>
 
             <div className="galeryRight">
-            <Parallax  y={[20,-15]}>
+            <Parallax  y={[20,-5]}>
 
-                <img className="rellax" src={galery6} alt=""/>
+                <img preload="auto" className="rellax" src={galery6} alt=""/>
                 <p>Your house is always near..</p>
                 </Parallax>
 
