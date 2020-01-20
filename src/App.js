@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect } from 'react';
+import React from 'react';
 import './App.css';
 import Homepage from "./compfolder/Homepage"
 import Golfcourse from "./compfolder/Golfcourse"

@@ -89,7 +89,7 @@ const Residences = (props)=>{
 
             <div className="lushText">
 
-            <h2>lush tropical damn ! ={props.disabled}</h2>
+            <h2>lush tropical damn !{props.disabled}</h2>
                 <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv.</p>
             </div>
             </Parallax>
