@@ -115,13 +115,22 @@ footer{
 @media screen and (max-width: 950px){
     footer{
          .big-footer {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    overflow: hidden;
-    padding: 0 0 !important;
-}
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            overflow: hidden;
+            padding: 0 0 !important;
+
+            a{
+                font-size: 1.2em;
+            }
+
+            .footer-menu{
+                // padding-left: 0;
+                width: 100%;
+            }
+        }
     }
 }
