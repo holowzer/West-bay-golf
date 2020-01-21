@@ -3,6 +3,9 @@ import Slideshow from './globalComp/Slider'
 import { Player, Shortcut } from 'video-react'
 import "./Homepage.scss"
 import Nav from "./globalComp/Nav"
+import img1 from "../images/golf3-min.jpeg"
+import img2 from "../images/golf4-min.jpeg"
+
 
 let Homepage = () => {
 
@@ -12,7 +15,8 @@ let Homepage = () => {
                 <Nav />
 
                 <h1 className="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
-                <Player
+                <Slideshow size="normal" img={["/assets/golf-preview.jpg", img1, "/assets/about-us-clubhouse-1.jpg"]} />
+                {/* <Player
                     playsInline
                     muted
                     autoPlay
@@ -21,7 +25,7 @@ let Homepage = () => {
                     height="100vh"
                     src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4">
                     <Shortcut clickable={false} dblclickable={false} shortcuts={[]} />
-                </Player>
+                </Player> */}
             </div>
             <div className="homepage-center-block">
                 <h2>Discover the True Caribbean Golf Experience</h2>
