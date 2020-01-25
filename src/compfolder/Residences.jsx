@@ -61,18 +61,13 @@ const Residences = (props)=>{
                 <h3></h3>
             </div>
         <Slideshow size="normal" img={[house1, house2, house3]}/>
-        <div className="residences-center-block">
-             <h2>Conceived in the <br/>Heart of the Caribbean</h2>
-        </div>
         <StrangeSlider/>
-        <div id="ResponsiveMobile" className="residences-center-block">
-             <h2>Conceived in the <br/>Heart of the Caribbean</h2>
-        </div>
         <div className="tooClassicDiv">
         <div className="villaPreviewText">
         <Parallax disabled={props.disabled}  y={[36,-46]}>
-                <h2>make your mother proud</h2>
-                <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. 
+                <h2>Simply the Finest in Roatan Island Living</h2>
+                <p>Surrounded by Roatan’s tropical landscape and the golf course The two bedroom villas are designed by world famed architect, Lane Pettigrew. Making The West Bay Golf Club & Villas a very unique and exciting new development project in Roatan.
+ 
                 </p>
                 </Parallax>
             </div>
@@ -89,14 +84,27 @@ const Residences = (props)=>{
 
             <div className="lushText">
 
-            <h2>lush tropical damn !{props.disabled}</h2>
-                <p>we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv. teenage headache dreams, i don't know how. i just took control in this latency of my memory.we don't give a fuck about tomorrow. remember how we use to be. now i own my dreams between the lights of the tv.</p>
+            <h2>Features</h2>
+                <p>Our 2 bedroom villas available for sale and rent at the Golf Course. Our gated community has 24 hour security and a staff ready to make your stay an incredibly memorable one! Would you like breakfast or lunch served in your villa, would you like assistance arranging snorkeling or scuba? Just ask! Included in your stay in our villas is free beach access on West Bay Beach where you can enjoy amazing snorkeling, water sports, or most importantly, some well deserved downtime at the sea!
+</p>
             </div>
             </Parallax>
+            
         </div>
+        <div className="specificities">
+           <img id="RoatanGolf" src={galery2} alt=""/>
+           <div className="speText">
+           <h2>Your own Private Heaven</h2>
+           <p>Our villas are designed with you in mind. Fully outfitted kitchen and beautiful living room
+downstairs with a large covered patio. Upstairs are 2 bedrooms each with bathroom and
+patios. The views of greens and blues is all around you and is certain to relax and refresh you after a long day of golf and diving!</p>
+
+           </div>
+       </div>
+
         <div className="advantages">
             <div className="advantagesHead">
-                <h2>the title of arguments zone</h2>
+                <h2>Everything you need !</h2>
             </div>
             <div className="advantagesContent">
                 <div className="argumentSticker">

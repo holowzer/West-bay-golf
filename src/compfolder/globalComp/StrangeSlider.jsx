@@ -46,7 +46,7 @@ const imageFolderMove=()=>{
             </div>
 
             </div>
-            <p>" An amazing marketing quote just for you."</p>
+            <p>" Conceived with you in mind"</p>
 
         </div>
     )
