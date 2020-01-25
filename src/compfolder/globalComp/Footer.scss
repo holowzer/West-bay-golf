@@ -21,7 +21,6 @@ footer{
 
             img{
                 max-width: 80%;
-                margin-right: 100px;
                 object-fit: contain;
             }
 
@@ -130,6 +129,11 @@ footer{
             .footer-menu{
                 // padding-left: 0;
                 width: 100%;
+            }
+            .footer-with-logo{
+                img{
+                    margin: 0 10%;
+                }
             }
         }
     }
