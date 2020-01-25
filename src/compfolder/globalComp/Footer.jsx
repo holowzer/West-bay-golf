@@ -28,12 +28,11 @@ let Footer = () => {
 
                 <div class="footer-menu">
                     <ul>
+                        <li> <Link to="/">Home</Link></li>
                         <li> <Link to="/golf">Golf</Link> </li>
                         <li> <Link to="/about-us">About us</Link></li>
                         <li> <Link to="/residences">The Residence</Link></li>
-                        <li> <Link to="/gallery">Gallery</Link></li>
                         <li> <Link to="/contact">Contact</Link></li>
-                        <li> <Link to="/">Home</Link></li>
                     </ul>
                 </div>
 

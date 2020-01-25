@@ -52,35 +52,35 @@ let Golfcourse = (props)=>{
             </div>
             <div className="welcomeDiv">
                 <div>
-                    <img src={golf1} alt=""/>
+                    <img src={golf1} alt="RoatanGolf"/>
                 </div>
                 <div>
                     <h2>The True Caribbean Golf Experience</h2>
-                    <p>Nestled at the heart of the Caribbean The Black Iguana Golf Course is the only Dye design golf course in West Bay, setting the standard of excellence and beauty for an all immersive tropical golf experience.</p>
+                    <p>Nestled at the heart of the Caribbean <strong> The Black Iguana Golf Course</strong> is the only Dye design golf course in West Bay, setting the standard of excellence and beauty for an all immersive tropical golf experience.</p>
                 </div>
-           <img id="mySvg" src={mySvg} alt=""/>
+           <img id="mySvg" src={mySvg} alt="stylesvg"/>
             </div>
             <div className="quoteMarket">
                 <span>Nothing better than doing sport in front <br/>of paradisiac landscapes.  </span>
             </div>
             <div className="arguments">
                 <div className="textArgument">
-                <Parallax disabled={props.disabled} y={[36,-46]}>
+                <Parallax disabled={props.disabled} y={[26,-26]}>
                     <h2>Nestled in a Lush Tropical Landscape </h2>
                     <p>The Black Iguana features an 9-hole, par 3 golf course with magnificent views, generous elevation, immaculate emerald greens while truly testing your short game. The course presents a challenge for golfers of all skill levels with 3 sets of tees accommodating both the professional and beginner golfer.</p>
                     </Parallax>
                 </div>
                 <div className="photoArgumentFrame">
-                 <img className="rightPhoto" src={golf5} alt=""/>
+                 <img className="rightPhoto" src={golf5} alt="bestcarribeangolf"/>
                 </div>
 
             </div>
             <div className="arguments">
                 <div className="photoArgumentFrame">
-                 <img className="leftPhoto" src={golf6} alt=""/>
+                 <img className="leftPhoto" src={golf6} alt="thegolfpractice"/>
                 </div>
                 <div className="textArgument">
-                <Parallax disabled={props.disabled}  y={[36,-46]}>
+                <Parallax disabled={props.disabled}  y={[26,-26]}>
                     <h2>Designed to be both fun and challenging</h2>
                    
                  <p>Executing an immaculate short game course that could be played in less than 90 minutes but that was also very challenging for even an experienced golfer. Our 9 hole, par 3, course has tremendous elevation challenges and will truly test your short game. Carts, clubs, food and drinks are all available in our clubhouse and we’re open to everyone. We’ll even transport you anywhere in West Bay for free!</p>
@@ -93,10 +93,10 @@ let Golfcourse = (props)=>{
             </div>
             <div className="golfMap">
                 <div className="googleMapGolf">
-                    <img src={golf8} alt=""/>
+                    <img src={golf8} alt="roatanholidays"/>
                 </div>
                 <div className="mapExplaination">
-                <Parallax disabled={props.disabled}  y={[36,-46]}>
+                <Parallax disabled={props.disabled}  y={[26,-26]}>
 
                     <h2>Black Iguana Golf Course</h2>
                     <p>We invite you to visit The West Bay Golf Club to enjoy its breathtaking scenery, challenging design and outstanding customer service reflecting cherished in a lush tropical landscape minutes from the heart of West Bay beach.</p>
