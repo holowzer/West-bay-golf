@@ -18,6 +18,7 @@ const Slideshow = (props) => {
     return (
         <div className="slideHeader">
           <div className="slide-container">
+            <div className="blackScreen"></div>
             <Slide {...properties}>
               {
                 slideImages.map((img) => {

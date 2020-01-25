@@ -17,6 +17,16 @@
     position: relative;
     margin-top: -40px;
 }
+.blackScreen{
+    background: #000;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
 .react-slideshow-container + div.indicators > div {
     width: 17px;
     height: 17px;
@@ -28,4 +38,8 @@
 }
 .react-slideshow-container + div.indicators > div.active {
     background: rgb(250, 150, 0);
+}
+.slideHeader{
+    position: relative;
+    z-index: 1;
 }

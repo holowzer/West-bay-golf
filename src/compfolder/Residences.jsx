@@ -130,14 +130,14 @@ const Residences = (props)=>{
         </div>
         <div className="galery">
             <div className="galeryLeft">
-            <Parallax  y={[0,0]}>
+            <Parallax  y={[5,0]}>
                 <img  preload="auto" src={galery1} alt=""/>
                 <p>a peacefull place with a sweet taste of paradise</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
-            <Parallax disabled={props.disabled}  y={[26,6]}>
+            <Parallax disabled={props.disabled}  y={[-5,6]}>
                 <img preload="auto" className="rellax" data-rellax-speed="4" src={galery2} alt=""/>
                 <p>A challenging 9-hole !</p>
                 </Parallax>
@@ -145,14 +145,14 @@ const Residences = (props)=>{
             </div>
 
             <div className="galeryLeft">
-            <Parallax disabled={props.disabled}  y={[-20,28]}>
+            <Parallax disabled={props.disabled}  y={[5,-8]}>
                 <img preload="auto" className="rellax" src={galery3} alt=""/>
                 <p>Well indicated and easy to travel.</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
-            <Parallax disabled={props.disabled}  y={[10,-10]}>
+            <Parallax disabled={props.disabled}  y={[-5,5]}>
                 <img preload="auto" data-rellax-speed="2" className="rellax" src={galery4} alt=""/>
                 <p>The grass is always green and the sky blue!</p>
                 </Parallax>
@@ -160,7 +160,7 @@ const Residences = (props)=>{
             </div>
 
             <div className="galeryLeft">
-            <Parallax disabled={props.disabled}  y={[-30,18]}>
+            <Parallax disabled={props.disabled}  y={[5,-5]}>
                 <img preload="auto" className="rellax" src={galery5} alt=""/>
                 <p>the greenery is astonishing and relaxing.</p>
                 </Parallax>
@@ -168,7 +168,7 @@ const Residences = (props)=>{
             </div>
 
             <div className="galeryRight">
-            <Parallax disabled={props.disabled}  y={[20,-5]}>
+            <Parallax disabled={props.disabled}  y={[20,-10]}>
 
                 <img preload="auto" className="rellax" src={galery6} alt=""/>
                 <p>Your house is always near..</p>
