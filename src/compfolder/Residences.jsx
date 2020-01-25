@@ -65,7 +65,7 @@ const Residences = (props)=>{
              <h2>Conceived in the <br/>Heart of the Caribbean</h2>
         </div>
         <StrangeSlider/>
-        <div className="residences-center-block">
+        <div id="ResponsiveMobile" className="residences-center-block">
              <h2>Conceived in the <br/>Heart of the Caribbean</h2>
         </div>
         <div className="tooClassicDiv">

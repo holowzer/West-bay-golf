@@ -29,7 +29,7 @@ let Homepage = () => {
             <div className="homepage-center-block">
                 <h2>Discover the True <br/>Caribbean Golf Experience</h2>
                 <div className="tooClassicDiv">
-                    <div className="preview-text">
+                    <div id="golfRoatanExplanation" className="preview-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -75,7 +75,7 @@ let Homepage = () => {
                     <div className="preview-image">
                         <img src="/assets/golf-preview.jpg" alt="Golf preview" />
                     </div>
-                    <div className="preview-text">
+                    <div id="golfRoatanExplanation" className="preview-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

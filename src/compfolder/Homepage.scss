@@ -1,40 +1,44 @@
 // @import "~video-react/styles/scss/video-react";
 
-.homepageContainer{
-    p{
+.homepageContainer {
+    p {
         font-size: 1.3em;
     }
-    h3{
+
+    h3 {
         font-size: 32px;
     }
-    .tooClassicDiv{
+
+    .tooClassicDiv {
         width: 80%;
         text-align: left;
         margin: 0 auto;
         justify-content: center;
-        div{
+
+        div {
             flex: 1;
         }
-        .preview-text{
+
+        .preview-text {
             margin: 0 50px;
         }
-        .preview-image{
+
+        .preview-image {
             text-align: center;
         }
     }
 }
 
-.homepageNavContainer{
+.homepageNavContainer {
     position: relative;
 }
 
 .video-react .video-react-big-play-button,
-.video-react-has-started .video-react-control-bar
-{
+.video-react-has-started .video-react-control-bar {
     display: none;
 }
 
-.homepageHook{
+.homepageHook {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -43,56 +47,59 @@
     font-size: 2.8em;
 }
 
-.homepage-center-block{
+.homepage-center-block {
     text-align: center;
-    margin-bottom: 320px;
+    margin-bottom: 120px;
     padding: 0 120px;
-    h2{
-        margin-top: 140px;
-        margin-bottom: 150px;
+
+    h2 {
+        margin-top: 100px;
+        margin-bottom: 40px;
     }
 }
 
-.homepagePreview{
+.homepagePreview {
     width: 80%;
     margin: 0 auto;
     background: lightgray;
 
     margin-top: 30px;
-    margin-bottom: 130px;
+    margin-bottom: 30px;
 
     display: flex;
 
-    .preview-image{
+    .preview-image {
         flex: 2;
-        img{
+
+        img {
             width: calc(100% + 30px);
         }
     }
 
-    .preview-text{
+    .preview-text {
         flex: 1;
-        padding: 90px;
+        padding: 40px;
     }
 
-    .preview-cta{
+    .preview-cta {
         margin-top: 30px;
         border-bottom: 3px solid #7FBFBE;
         color: black;
         text-decoration: none;
     }
 
-    &.text-on-right{
-        .preview-image{
+    &.text-on-right {
+        .preview-image {
             position: relative;
             top: -30px;
             left: -30px;
         }
     }
 
-    &.text-on-left{
+    &.text-on-left {
         flex-direction: row-reverse;
-        .preview-image{
+
+        .preview-image {
             position: relative;
             top: -30px;
             // right: -30px;
@@ -100,9 +107,10 @@
     }
 }
 
-.slideshow-with-text{
+.slideshow-with-text {
     position: relative;
-    h2{
+
+    h2 {
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -112,98 +120,131 @@
     }
 }
 
-.homepageGlobalPreviews{
+.homepageGlobalPreviews {
     padding: 0;
-    .sidebyside{
+
+    .sidebyside {
         display: flex;
-        
-        div{
+
+        div {
             position: relative;
             overflow: hidden;
             // transition: all .3s ease-in;
             flex: 1;
 
-            h3{
+            h3 {
                 position: absolute;
-                bottom: -500px;
-                left: 20px;
+                bottom: 50%;
+                margin-bottom: -65px;
+                width: 250px;
+                left: 50%;
+                margin-left: -125px;
                 z-index: 999;
-                font-size: 50px;
+                font-size: 60px;
                 color: white;
             }
-            
-            img{
+
+            img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                filter: brightness(0.7);
+                transition: all 0.1s ease-in;
             }
-            
-            &:hover{
-                img{
-                    transform: scale(1.1);
+
+            &:hover {
+                img {
+                    transform: scale(1);
+                    filter: brightness(0.4) blur(1px);
+
                 }
-                h3{
-                    bottom: 20px;
-                }
+
+                h3 {}
             }
         }
     }
 }
 
-@media screen and (max-width: 1280px){
-    .homepageContainer{
-        .tooClassicDiv{
+@media screen and (max-width: 1280px) {
+    .homepageContainer {
+        .tooClassicDiv {
             width: 100%;
-            .preview-text{
-                margin: 0 50px;
+
+            .preview-text {
+                margin: 30px 10px;
             }
-            .preview-image{
+
+            .preview-image {
                 text-align: center;
             }
         }
     }
 }
 
-@media screen and (max-width: 950px){
-    .homepageContainer{
+@media screen and (max-width: 750px) {
+    .homepageContainer {
         h2 {
-            margin: 0;
+            margin: 110px 0 50px 0;
             font-size: 2.3em;
         }
-        .homepage-center-block{
+
+        .homepage-center-block {
             padding: 0 20px;
             margin-bottom: 50px;
+            margin-top: 30px;
         }
     }
 
-    .homepagePreview{
+    .homepageGlobalPreviews .sidebyside {
+        display: flex;
         flex-direction: column;
 
-        .preview-text{
+        h3 {
+            bottom: 50%;
+            font-size: 41px !important;
+        }
+
+        img {
+            filter: brightness(0.4) blur(0px) !important;
+
+        }
+    }
+
+    .homepagePreview {
+        flex-direction: column;
+        width: 92%;
+
+
+        .preview-text {
             padding: 20px;
         }
 
-        .preview-image{
-            img{
+        .preview-image {
+            img {
                 width: 100%;
             }
         }
 
-        &.text-on-right{
-            .preview-image{
+        &.text-on-right {
+            .preview-image {
                 position: relative;
                 top: 0;
                 left: 0;
             }
         }
 
-        &.text-on-left{
+        &.text-on-left {
             flex-direction: column-reverse;
-            .preview-image{
+
+            .preview-image {
                 position: relative;
                 top: 0;
                 // right: -30px;
             }
         }
     }
+}
+
+#golfRoatanExplanation {
+    font-size: 1.2em;
 }
