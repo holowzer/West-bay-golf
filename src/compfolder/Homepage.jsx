@@ -1,10 +1,9 @@
 import React from 'react';
 import Slideshow from './globalComp/Slider'
-import { Player, Shortcut } from 'video-react'
+// import { Player, Shortcut } from 'video-react'
 import "./Homepage.scss"
 import Nav from "./globalComp/Nav"
 import img1 from "../images/golf3-min.jpeg"
-import img2 from "../images/golf4-min.jpeg"
 
 
 let Homepage = () => {
@@ -28,16 +27,21 @@ let Homepage = () => {
                 </Player> */}
             </div>
             <div className="homepage-center-block">
-                <h2>Discover the True Caribbean Golf Experience</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.
-                </p>
+                <h2>Discover the True <br/>Caribbean Golf Experience</h2>
+                <div className="tooClassicDiv">
+                    <div className="preview-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </div>
+                    <div className="preview-image">
+                        <img src="/assets/golf-preview.jpg" alt="Golf preview"/>
+                    </div>
+                </div>
             </div>
 
             <div className="homepagePreview text-on-right">
@@ -62,22 +66,25 @@ let Homepage = () => {
                 </div>
             </div>
             <div className="slideshow-with-text">
-                <h2>Mixing the deepest blues and brightest greens</h2>
+                <h2>Mixing the deepest blues <br/>and brightest greens</h2>
                 <Slideshow size="little" img={["/assets/home-slide-1.jpg", "/assets/home-slide-2.jpg", "/assets/home-slide-3.jpg"]} />
             </div>
             <div className="homepage-center-block">
-                <h2>Live your best life at West Bay <br /> Golf Club & Villas</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non
-                </p>
+                <h2>Live your best life at West Bay <br/>Golf Club & Villas</h2>
+                <div className="tooClassicDiv">
+                    <div className="preview-image">
+                        <img src="/assets/golf-preview.jpg" alt="Golf preview" />
+                    </div>
+                    <div className="preview-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                    </div>
+                </div>
             </div>
             <div className="homepagePreview text-on-left">
                 <div className="preview-image">

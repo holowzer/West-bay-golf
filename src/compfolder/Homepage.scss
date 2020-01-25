@@ -1,14 +1,26 @@
-@import "~video-react/styles/scss/video-react";
+// @import "~video-react/styles/scss/video-react";
 
 .homepageContainer{
-    h2{
-        font-size: 77px;
-        color: #505050;
+    p{
+        font-size: 1.3em;
     }
-
-
     h3{
         font-size: 32px;
+    }
+    .tooClassicDiv{
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+        justify-content: center;
+        div{
+            flex: 1;
+        }
+        .preview-text{
+            margin: 0 50px;
+        }
+        .preview-image{
+            text-align: center;
+        }
     }
 }
 
@@ -28,6 +40,7 @@
     left: 20px;
     z-index: 1;
     color: white;
+    font-size: 2.8em;
 }
 
 .homepage-center-block{
@@ -94,7 +107,7 @@
         bottom: 20px;
         left: 20px;
         z-index: 2;
-        font-size: 24px;
+        font-size: 2.3em;
         color: white;
     }
 }
@@ -132,6 +145,20 @@
                 h3{
                     bottom: 20px;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .homepageContainer{
+        .tooClassicDiv{
+            width: 100%;
+            .preview-text{
+                margin: 0 50px;
+            }
+            .preview-image{
+                text-align: center;
             }
         }
     }
