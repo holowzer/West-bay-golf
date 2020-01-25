@@ -1,9 +1,9 @@
 // @import "~video-react/styles/scss/video-react";
 
 .homepageContainer {
-    p {
-        font-size: 1.3em;
-    }
+    // p {
+    //     font-size: 1.3em;
+    // }
 
     h3 {
         font-size: 32px;
@@ -42,7 +42,7 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    z-index: 1;
+    z-index: 2;
     color: white;
     font-size: 2.8em;
 }
@@ -78,7 +78,7 @@
 
     .preview-text {
         flex: 1;
-        padding: 40px;
+        padding: 30px;
     }
 
     .preview-cta {
@@ -126,7 +126,7 @@
     .sidebyside {
         display: flex;
 
-        div {
+        & > a {
             position: relative;
             overflow: hidden;
             // transition: all .3s ease-in;
@@ -217,9 +217,8 @@
         flex-direction: column;
         width: 92%;
 
-
         .preview-text {
-            padding: 20px;
+            padding: 10px;
         }
 
         .preview-image {

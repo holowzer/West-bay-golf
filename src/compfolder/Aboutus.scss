@@ -1,16 +1,16 @@
 .aboutusContainer{
     margin-bottom: 120px;
-    p{
-        font-size: 1.3em;
-    }
+    // p{
+    //     font-size: 1.3em;
+    // }
 
     h3{
         font-size: 32px;
     }
 
     .aboutus-presentation{
-        // margin: 0 150px;
         width: 100%;
+        overflow-x: hidden;
         min-height: 80vh;
         position: relative;
         display: flex;
@@ -54,7 +54,7 @@
 
         .preview-text{
             flex: 1;
-            padding: 40px;
+            padding: 30px;
             // max-width: 300px;
         }
 
@@ -186,7 +186,7 @@
             flex-direction: column;
 
             .preview-text{
-                padding: 20px;
+                padding: 10px;
             }
     
             .preview-image{

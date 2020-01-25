@@ -4,6 +4,7 @@ import Slideshow from './globalComp/Slider'
 import "./Homepage.scss"
 import Nav from "./globalComp/Nav"
 import img1 from "../images/golf3-min.jpeg"
+import {Link} from 'react-router-dom';
 
 
 let Homepage = () => {
@@ -30,13 +31,8 @@ let Homepage = () => {
                 <h2>Discover the True <br/>Caribbean Golf Experience</h2>
                 <div className="tooClassicDiv">
                     <div id="golfRoatanExplanation" className="preview-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
+                        Located along the second largest barrier reef in the world, Roatan is truly spoiled by mother
+                        nature. Our golf course features lush vegetation and spectacular roatan ocean views. Our golf course is in West Bay, Roatan and a 10 minute walk from the white sands of West Bay Beach (one of the best in the Caribbean) and a short golf cart ride from every hotel in West Bay.
                     </div>
                     <div className="preview-image">
                         <img src="/assets/golf-preview.jpg" alt="Golf preview"/>
@@ -51,15 +47,8 @@ let Homepage = () => {
                 <div className="preview-text">
                     <h3>The Golf Experience</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non
+                        Our course is designed by Dye Designs. Pete and Perry Dye have designed courses all over the world including some of the most challenging PGA courses. In designing our course they
+                        wanted to execute a short course that could be played in less than 90 minutes but that was also very challenging for even an experienced golfer. 
                     </p>
 
                     <a href="/golf" className="preview-cta">Learn more</a>
@@ -76,13 +65,7 @@ let Homepage = () => {
                         <img src="/assets/golf-preview.jpg" alt="Golf preview" />
                     </div>
                     <div id="golfRoatanExplanation" className="preview-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                        laborum.
+                        Our gated community has 24 hour security and a staff ready to make your stay an incredibly memorable one! We have 2 bedroom villas available for sale and rent at the Golf Course. Would you like breakfast or lunch served in your villa, would you like assistance arranging snorkeling or scuba? Just ask! Included in your stay in our villas is free beach access on West Bay Beach where you can enjoy amazing snorkeling, water sports, or most importantly, some well deserved downtime at the sea!
                     </div>
                 </div>
             </div>
@@ -93,18 +76,12 @@ let Homepage = () => {
                 <div className="preview-text">
                     <h3>Live and play <br/>in Paradise</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non
+                        Our villas are designed with you in mind. Fully outfitted kitchen and beautiful living room
+                        downstairs with a large covered patio. Upstairs are 2 bedrooms each with bathroom and
+                        patios. The views of greens and blues is all around you and is certain to relax and refresh you after a long day of golf and diving!
                     </p>
 
-                    <a href="/golf" className="preview-cta">Learn more</a>
+                    <a href="/residences" className="preview-cta">Learn more</a>
                 </div>
             </div>
 
@@ -112,14 +89,14 @@ let Homepage = () => {
                 <h2>Come and Discover our Breathtaking <br/>Views and Challenging Greens</h2>
 
                 <div className="sidebyside">
-                    <div>
+                    <Link to="/golf">
                         <h3>The Golf Experience</h3>
                         <img src="/assets/golf-experience.jpg" alt="Golf preview"/>
-                    </div>
-                    <div>
+                    </Link>
+                    <Link to="/residences">
                         <h3>The Residence</h3>
                         <img src="/assets/residence-experience.jpg" alt="Residence preview" />
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
