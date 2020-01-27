@@ -11,6 +11,7 @@ let Aboutus = () => {
         <div className="aboutusContainer">
             <div>
                 <Nav />
+                <h1 className="aboutusHook">Who's the lovely team <br />behind Black Iguana?</h1>
                 <Slideshow size="normal" img={["/assets/about-us-landing-1.jpg", "/assets/about-us-landing-2.jpg", "/assets/about-us-landing-3.jpg"]} />
             </div>
             <div className="aboutus-presentation text-on-right">

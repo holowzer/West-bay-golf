@@ -35,7 +35,7 @@ let Homepage = () => {
                         nature. Our golf course features lush vegetation and spectacular roatan ocean views. Our golf course is in West Bay, Roatan and a 10 minute walk from the white sands of West Bay Beach (one of the best in the Caribbean) and a short golf cart ride from every hotel in West Bay.
                     </div>
                     <div className="preview-image">
-                        <img src="/assets/golf-preview.jpg" alt="Golf preview"/>
+                        <img src="/assets/home-intermed.png" alt="Golf preview"/>
                     </div>
                 </div>
             </div>
@@ -54,6 +54,7 @@ let Homepage = () => {
                     <a href="/golf" className="preview-cta">Learn more</a>
                 </div>
             </div>
+            <div className="spacer"></div>
             <div className="slideshow-with-text">
                 <h2>Mixing the deepest blues <br/>and brightest greens</h2>
                 <Slideshow size="little" img={["/assets/home-slide-1.jpg", "/assets/home-slide-2.jpg", "/assets/home-slide-3.jpg"]} />
@@ -62,7 +63,7 @@ let Homepage = () => {
                 <h2>Live your best life at West Bay <br/>Golf Club & Villas</h2>
                 <div className="tooClassicDiv">
                     <div className="preview-image">
-                        <img src="/assets/golf-preview.jpg" alt="Golf preview" />
+                        <img src="/assets/home-intermed2.png" alt="Golf preview" />
                     </div>
                     <div id="golfRoatanExplanation" className="preview-text">
                         Our gated community has 24 hour security and a staff ready to make your stay an incredibly memorable one! We have 2 bedroom villas available for sale and rent at the Golf Course. Would you like breakfast or lunch served in your villa, would you like assistance arranging snorkeling or scuba? Just ask! Included in your stay in our villas is free beach access on West Bay Beach where you can enjoy amazing snorkeling, water sports, or most importantly, some well deserved downtime at the sea!

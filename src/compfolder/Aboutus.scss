@@ -1,8 +1,14 @@
 .aboutusContainer{
     margin-bottom: 120px;
-    // p{
-    //     font-size: 1.3em;
-    // }
+
+    .aboutusHook{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        z-index: 2;
+        color: white;
+        font-size: 2.8em;
+    }
 
     h3{
         font-size: 32px;
@@ -36,7 +42,7 @@
 
     .aboutusPreview{
         width: 80%;
-        margin: 30px auto;
+        margin: 60px auto;
         background: lightgray;
         
         display: flex;
@@ -121,9 +127,15 @@
             margin-top: 140px;
             margin-bottom: 150px;
         }
+        p{
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 120px;
+        }
     }
 
     .aboutus-family{
+        padding-top: 60px;
         padding-left:150px;
         div{
             margin: 0 10px;
