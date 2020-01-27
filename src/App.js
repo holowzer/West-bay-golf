@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from "react-router-scroll-top"
 import './App.css';
 import Homepage from "./compfolder/Homepage"
 import Golfcourse from "./compfolder/Golfcourse"
@@ -22,8 +23,11 @@ if(window.innerWidth<800){
 }
 
   return (
-<ParallaxProvider>
-    <Router>
+
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
+      <ParallaxProvider>
+
+    <ScrollToTop>
       <div className="App">
         <Route path="/" exact component={Homepage}/>
         <Route path="/golf" render={(props) => <Golfcourse disabled={responsive} isAuthed={true} />}/>
@@ -35,8 +39,10 @@ if(window.innerWidth<800){
         <Route path="/contact/real-estate-rental" component={RentalContact}/>
         <Footer/>
       </div>
+      </ScrollToTop>
+      </ParallaxProvider>
+
     </Router>
-    </ParallaxProvider>
   )
 }
 
