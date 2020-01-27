@@ -4,6 +4,7 @@ import img0 from "../../images/airy-min.jpeg"
 import img1 from "../../images/foodish-min.jpg"
 import img2 from "../../images/golfoverview-min.jpg"
 import img3 from "../../images/sunset.jfif"
+import arrow from "../../images/move-to-next.svg"
 
 // let imageFolder = [img0,img1,img2,img3]
 
@@ -42,7 +43,7 @@ const imageFolderMove=()=>{
             <div className="littleWindows">
                 <div className="littleImgContainer img1"> {imageFolder[1]} </div>
                 <div className="littleImgContainer"> {imageFolder[2]}</div>
-                <div className="greyDiv" onClick={imageFolderMove}>></div>
+                <div className="greyDiv" onClick={imageFolderMove}> <img  id="seeCarribeanGolf"  src={arrow} alt=""/>   </div>
             </div>
 
             </div>
