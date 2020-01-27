@@ -37,30 +37,30 @@ const BookGolf = () => {
                         <div>
                             <label>
                                 Name
-                                <input type="text" name="name"/>
+                                <input type="text" name="name" required/>
                             </label>
                             <label>
                                 Email
-                                <input type="email" name="email"/>
+                                <input type="email" name="email" required/>
                             </label>
                             <label>
                                 Phone
-                                <input type="text" name="phone"/>
+                                <input type="text" name="phone" required/>
                             </label>
                         </div>
 
                         <div>
                             <label>
                                 Date
-                                <input type="date" name="date" />
+                                <input type="date" name="date"  required/>
                             </label>
                             <label>
                                 Time
-                                <input type="time" name="time" />
+                                <input type="time" name="time"  required/>
                             </label>
                             <label>
                                 Players number
-                                <input type="number" name="players" />
+                                <input type="number" name="players"  required/>
                             </label>
 
                             <button>Contact booking</button>

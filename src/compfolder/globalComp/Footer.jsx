@@ -32,7 +32,10 @@ let Footer = () => {
                         <li> <Link to="/golf">Golf</Link> </li>
                         <li> <Link to="/about-us">About us</Link></li>
                         <li> <Link to="/residences">The Residence</Link></li>
-                        <li> <Link to="/contact">Contact</Link></li>
+                        <li> <Link to="#" onClick={() => {
+                            const menu = document.querySelector('.generalContactContainer')
+                            menu.classList.remove('toggleContact')
+                        }}>Contact</Link></li>
                     </ul>
                 </div>
 
@@ -42,15 +45,15 @@ let Footer = () => {
                     </div>
                    
                     <a href="https://roatansir.com/west-bay-golf-club-villas/" rel="noopener noreferrer" target="_blank">
-                        <img src="/sotheby-logo.png" alt=""/>
+                        <img src="/sotheby-logo.png" alt="Sotheby"/>
                     </a>
                     <div className="footer-logo-vertical-align">
                         <div>
-                            <img src="/blackiguana-logo.png" alt=""/>
+                            <img src="/blackiguana-logo.png" alt="Black Iguana"/>
                         </div>
                         <div>
                             <a href="https://www.dyedesigns.com/perry-dye/" rel="noopener noreferrer" target="_blank">
-                                <img src="/dyedesign-logo.png" alt="" />
+                                <img src="/dyedesign-logo.png" alt="Dye design" />
                             </a>
                         </div>
                     </div>

@@ -39,22 +39,22 @@ const SalesContact = () => {
                         <div>
                             <label>
                                 Name
-                                <input type="text" name="name" />
+                                <input type="text" name="name" required/>
                             </label>
                             <label>
                                 Email
-                                <input type="email" name="email" />
+                                <input type="email" name="email" required/>
                             </label>
                             <label>
                                 Phone
-                                <input type="text" name="phone" />
+                                <input type="text" name="phone" required/>
                             </label>
                         </div>
 
                         <div>
                             <label>
                                 Message
-                                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                                <textarea name="message" id="" cols="30" rows="10" required></textarea>
                             </label>
 
                             <button>Send message</button>
