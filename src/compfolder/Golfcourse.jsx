@@ -1,4 +1,5 @@
-import React, { useLayoutEffect } from 'react';
+import React, { useLayoutEffect, } from 'react';
+import {Link} from 'react-router-dom';
 import img0 from "../images/golf2-min.jpeg"
 import img1 from "../images/golf3-min.jpeg"
 import img2 from "../images/golf4-min.jpeg"
@@ -44,7 +45,7 @@ let Golfcourse = (props)=>{
             <div className="overLayer">
             <h4>Book your tee off today !</h4>
                 <div className="rightCTA">
-                    <a href="">Find your tee time <span id='spanLine'>-</span></a>
+                <Link to="/contact/book-golf">Find your tee time <span id='spanLine'>-</span></Link>
                 </div>
                 <h3></h3>
             </div>
@@ -103,12 +104,16 @@ let Golfcourse = (props)=>{
                     </Parallax>
                 </div>
             </div>
+
             <div className="blueDivCTA">
                 <h2>Book a tee time with us now!</h2>
                 <h3>we recommand you to reserve your tee time in advance !</h3>
-                <a href="">Book tee times</a>
+                <Link to="/contact/book-golf">
+     Book tee times</Link>
             </div>
+            
         </div>
+        
     )
 }
 

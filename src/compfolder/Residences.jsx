@@ -58,7 +58,7 @@ const Residences = (props)=>{
                 <div className="rightCTA">
                     <a href="https://roatansir.com/west-bay-golf-club-villas/" target="_blank">Find your perfect house <span id='spanLine'>-</span></a>
                 </div>
-                <h3></h3>
+                
             </div>
         <Slideshow size="normal" img={[house1, house2, house3]}/>
         <StrangeSlider/>
