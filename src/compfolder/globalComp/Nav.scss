@@ -16,7 +16,7 @@ nav{
     position: absolute;
     top: 0;
     z-index: 1000;
-    a.contactButton{
+    div.contactButton{
         width: 130px;
         height: 50px;
         display: flex;
@@ -46,7 +46,7 @@ nav{
         margin-left: 20px;
         color: white;
     }
-   nav a.contactButton{
+   nav div.contactButton{
         width: 100px;
         height: 40px;
         font-size: 0.9em;

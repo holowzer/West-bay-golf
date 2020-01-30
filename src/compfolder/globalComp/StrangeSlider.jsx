@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import "./StrangeSlider.scss"
 import img0 from "../../images/airy-min.jpeg"
 import img1 from "../../images/foodish-min.jpg"

@@ -3,14 +3,14 @@ import ScrollToTop from "react-router-scroll-top"
 import './App.css';
 import Homepage from "./compfolder/Homepage"
 import Golfcourse from "./compfolder/Golfcourse"
-import {ParallaxProvider,withController,useController,parallaxController} from "react-scroll-parallax"
+import {ParallaxProvider} from "react-scroll-parallax"
 import BookGolf from './compfolder/globalComp/contactPages/BookGolf'
 import SalesContact from './compfolder/globalComp/contactPages/SalesContact'
 import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
 
 import Aboutus from "./compfolder/Aboutus"
 import Footer from "./compfolder/globalComp/Footer"
-import {BrowserRouter as Router, Switch,Route, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router,Route, Redirect} from 'react-router-dom';
 import Residences from './compfolder/Residences';
 
 

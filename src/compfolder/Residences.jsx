@@ -16,7 +16,6 @@ import cabin from "../images/cabin.png"
 
 import img1 from "../images/indoor1.jpg"
 import img2 from "../images/house4.jpg"
-import placeholder from "../images/placeHolder.png"
 import Slideshow from "./globalComp/Slider";
 import Nav from "./globalComp/Nav";
 import GeneralMenu from "./globalComp/GeneralMenu";
