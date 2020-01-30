@@ -3,6 +3,7 @@ import navIcon from "../../images/menu.svg"
 import westBayLogo from "../../images/LogowestBay.png"
 import Contact from '../globalComp/contactPages/Contact'
 import GeneralMenu from '../globalComp/GeneralMenu'
+import { Link } from 'react-router-dom'
 import "./Nav.scss"
 
 let Nav=()=>{
@@ -22,7 +23,7 @@ let Nav=()=>{
     return(
      <nav>
         <img className="navButton" src={navIcon} alt="roatan golf club"/>
-        <img src={westBayLogo} alt="caribbean west bay"/>
+        <Link to="/"><img src={westBayLogo} alt="caribbean west bay" className="navLogo" /></Link>
         <div className="contactButton">
             Contact Us
         </div>
