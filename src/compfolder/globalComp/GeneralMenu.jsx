@@ -16,7 +16,7 @@ const GeneralMenu = ()=>{
     return(
         <div className="generalMenu toggleMenu">
             <div className="topDiv">
-                <Link to="/"><img className="theCross" src={close} alt="" /></Link>
+                <img className="theCross" src={close} alt="" />
             </div>
             <div className="midMenu">
                 <div className="leftLinks">
