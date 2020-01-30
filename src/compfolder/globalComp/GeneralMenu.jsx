@@ -42,7 +42,10 @@ const GeneralMenu = ()=>{
                                 <img src={sothebys} alt=""/>
                             </div>
                             <div className="contactCta">
-                                <a href="">Contact Us</a>
+                            <Link to="#" onClick={() => {
+                            const menu = document.querySelector('.generalContactContainer')
+                            menu.classList.remove('toggleContact')
+                        }}>Contact Us</Link>
                             </div>
                         </div>
                     </div>
