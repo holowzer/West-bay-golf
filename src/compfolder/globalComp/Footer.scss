@@ -137,6 +137,31 @@ footer{
                     margin: 0 10%;
                 }
             }
+            
+            .footer-weather{
+                margin: 20px;
+                border-radius: 15px;
+                padding: 20px 5px;
+                width: 300px !important;
+                overflow: hidden;
+                background: rgba(105, 139, 86, .3);
+                box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.314);
+                height: 400px;
+                text-align: center;
+                
+                img{
+                    max-width: 80%;
+                    object-fit: contain;
+                }
+
+                .weather-widget{
+                    border-radius: 10px;
+                    background: #698b56;
+                    width: 100%;
+                    margin: 20px auto;
+                }
+            }
+            
         }
     }
 }
