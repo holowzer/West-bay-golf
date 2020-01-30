@@ -51,7 +51,7 @@ const Residences = (props)=>{
     return(
         <div className="Residences">
         <Nav/>
-        <div className="moto"><h2>Welcome to the <br/> Black Iguana Golf-Club.</h2></div>
+        <div className="moto"><h2>Live your best life <br/>at West Bay Golf Club & Villas</h2></div>
 
         <div className="overLayer">
             <h4>Book your place !</h4>
@@ -85,7 +85,7 @@ const Residences = (props)=>{
             <div className="lushText">
 
             <h2>Features</h2>
-                <p>Our 2 bedroom villas available for sale and rent at the Golf Course. Our gated community has 24 hour security and a staff ready to make your stay an incredibly memorable one! Would you like breakfast or lunch served in your villa, would you like assistance arranging snorkeling or scuba? Just ask! Included in your stay in our villas is free beach access on West Bay Beach where you can enjoy amazing snorkeling, water sports, or most importantly, some well deserved downtime at the sea!
+                <p>Our 2 bedroom villas available for sale and rent at the Golf Course. Would you like breakfast or lunch served in your villa, would you like assistance arranging snorkeling or scuba? Just ask! Included in your stay in our villas is free beach access on West Bay Beach where you can enjoy amazing snorkeling, water sports, or most importantly, some well deserved downtime at the sea!
 </p>
             </div>
             </Parallax>

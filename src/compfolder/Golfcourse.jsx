@@ -62,7 +62,7 @@ let Golfcourse = (props)=>{
            <img id="mySvg" src={mySvg} alt="stylesvg"/>
             </div>
             <div className="quoteMarket">
-                <span>Nothing better than doing sport in front <br/>of paradisiac landscapes.  </span>
+                <span>Nothing better than playing golf in front <br/>of paradisiac landscapes.</span>
             </div>
             <div className="arguments">
                 <div className="textArgument">
