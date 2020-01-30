@@ -1,6 +1,4 @@
 import React from 'react';
-import img1 from "../images/download1.jpg"
-import img2 from "../images/download2.jpg"
 import Slideshow from './globalComp/Slider';
 import "./Aboutus.scss"
 import Nav from "./globalComp/Nav"

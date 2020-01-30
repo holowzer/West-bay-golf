@@ -23,9 +23,9 @@ let Nav=()=>{
      <nav>
         <img className="navButton" src={navIcon} alt="roatan golf club"/>
         <img src={westBayLogo} alt="caribbean west bay"/>
-        <a href="#" className="contactButton">
+        <div className="contactButton">
             Contact Us
-        </a>
+        </div>
         <GeneralMenu />
         <Contact/>
      </nav>

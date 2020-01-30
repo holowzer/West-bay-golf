@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, } from 'react';
+import React, { useLayoutEffect } from 'react';
 import {Link} from 'react-router-dom';
 import img0 from "../images/golf2-min.jpeg"
 import img1 from "../images/golf3-min.jpeg"
