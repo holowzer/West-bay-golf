@@ -37,6 +37,8 @@ if(window.innerWidth<800){
         <Route path="/contact/book-golf" component={BookGolf}/>
         <Route path="/contact/real-estate-sales" component={SalesContact}/>
         <Route path="/contact/real-estate-rental" component={RentalContact}/>
+
+        <Route component={Homepage} />
         <Footer/>
       </div>
       </ScrollToTop>
