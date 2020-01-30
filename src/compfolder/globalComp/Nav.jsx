@@ -3,6 +3,7 @@ import navIcon from "../../images/menu.svg"
 import westBayLogo from "../../images/LogowestBay.png"
 import Contact from '../globalComp/contactPages/Contact'
 import GeneralMenu from '../globalComp/GeneralMenu'
+import { Link } from 'react-router-dom'
 import "./Nav.scss"
 import { Link } from 'react-router-dom';
  
