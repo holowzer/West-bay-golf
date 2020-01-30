@@ -4,7 +4,8 @@ import westBayLogo from "../../images/LogowestBay.png"
 import Contact from '../globalComp/contactPages/Contact'
 import GeneralMenu from '../globalComp/GeneralMenu'
 import "./Nav.scss"
-
+import { Link } from 'react-router-dom';
+ 
 let Nav=()=>{
     useEffect(()=>{
         const navButton = document.querySelector('.navButton')
@@ -22,7 +23,9 @@ let Nav=()=>{
     return(
      <nav>
         <img className="navButton" src={navIcon} alt="roatan golf club"/>
+        <Link to="/">
         <img src={westBayLogo} alt="caribbean west bay"/>
+        </Link>
         <div className="contactButton">
             Contact Us
         </div>

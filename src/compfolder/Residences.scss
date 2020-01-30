@@ -415,3 +415,13 @@
         margin-left: auto;
     }
 }
+@media screen and (max-width : 380px){
+    .speText {
+        background: rgba(0, 0, 0, 0.712);
+        z-index: 3;
+        color: white;
+        width: 100%;
+        padding: 7px;
+        height: 100%;
+    }
+}
