@@ -10,7 +10,7 @@ import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
 
 import Aboutus from "./compfolder/Aboutus"
 import Footer from "./compfolder/globalComp/Footer"
-import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch,Route, Redirect} from 'react-router-dom';
 import Residences from './compfolder/Residences';
 
 
@@ -38,7 +38,8 @@ if(window.innerWidth<800){
         <Route path="/contact/real-estate-sales" component={SalesContact}/>
         <Route path="/contact/real-estate-rental" component={RentalContact}/>
 
-        <Route component={Homepage} />
+        {/* <Route component={Homepage} /> */}
+            <Redirect from='*' to='/' />
         <Footer/>
       </div>
       </ScrollToTop>

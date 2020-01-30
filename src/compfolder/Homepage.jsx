@@ -15,7 +15,7 @@ let Homepage = () => {
                 <Nav />
 
                 <h1 className="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
-                <Slideshow size="normal" img={["/assets/golf-preview.jpg", img1, "/assets/about-us-clubhouse-1.jpg"]} />
+                <Slideshow size="normal" img={["/assets/golf-preview.jpg", img1, "/assets/about-us-landing-2.jpg"]} />
                 {/* <Player
                     playsInline
                     muted
@@ -57,7 +57,7 @@ let Homepage = () => {
             <div className="spacer"></div>
             <div className="slideshow-with-text">
                 <h2>Mixing the deepest blues <br/>and brightest greens</h2>
-                <Slideshow size="little" img={["/assets/home-slide-1.jpg", "/assets/home-slide-2.jpg", "/assets/home-slide-3.jpg"]} />
+                <Slideshow size="most" img={["/assets/home-slide-1.jpg", "/assets/home-slide-2.jpg", "/assets/home-slide-3.jpg"]} />
             </div>
             <div className="homepage-center-block">
                 <h2>Live your best life at West Bay <br/>Golf Club & Villas</h2>
@@ -96,7 +96,7 @@ let Homepage = () => {
                     </Link>
                     <Link to="/residences">
                         <h3>The Residence</h3>
-                        <img src="/assets/residence-experience.jpg" alt="Residence preview" />
+                        <img src="/assets/residence-preview.jpg" alt="Residence preview" style={{ objectFit: 'cover' }} />
                     </Link>
                 </div>
             </div>
