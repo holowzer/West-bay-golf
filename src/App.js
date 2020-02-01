@@ -10,7 +10,7 @@ import RentalContact from './compfolder/globalComp/contactPages/RentalContact'
 
 import Aboutus from "./compfolder/Aboutus"
 import Footer from "./compfolder/globalComp/Footer"
-import {BrowserRouter as Router,Route, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import Residences from './compfolder/Residences';
 
 
@@ -29,17 +29,20 @@ if(window.innerWidth<800){
 
     <ScrollToTop>
       <div className="App">
-        <Route path="/" exact component={Homepage}/>
-        <Route path="/golf" render={(props) => <Golfcourse disabled={responsive} isAuthed={true} />}/>
-        <Route path="/about-us" component={Aboutus}/>
-        <Route path="/residences" render={(props) => <Residences disabled={responsive} isAuthed={true} />}/>
+        <Switch>
+          <Route path="/" exact component={Homepage}/>
+          <Route path="/golf" render={(props) => <Golfcourse disabled={responsive} isAuthed={true} />}/>
+          <Route path="/about-us" component={Aboutus}/>
+          <Route path="/residences" render={(props) => <Residences disabled={responsive} isAuthed={true} />}/>
 
-        <Route path="/contact/book-golf" component={BookGolf}/>
-        <Route path="/contact/real-estate-sales" component={SalesContact}/>
-        <Route path="/contact/real-estate-rental" component={RentalContact}/>
+          <Route path="/contact/book-golf" component={BookGolf}/>
+          <Route path="/contact/real-estate-sales" component={SalesContact}/>
+          <Route path="/contact/real-estate-rental" component={RentalContact}/>
 
-        {/* <Route component={Homepage} /> */}
-            <Redirect from='*' to='/' />
+          {/* <Route component={Homepage} /> */}
+          {/* <Route render={() => <Redirect to="/" />} /> */}
+          <Redirect to="/" />
+        </Switch>
         <Footer/>
       </div>
       </ScrollToTop>
