@@ -3,6 +3,23 @@ import "./GlobalContact.scss"
 import Nav from "../../globalComp/Nav"
 
 const SalesContact = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        const data = new FormData(e.target)
+
+        fetch('/contact.php?topic=sales', {
+            method: 'POST',
+            body: data
+        }).then(() => {
+            alert("Your mail has been sent, our team will follow your request as soon as possible. Thanks!")
+            document.querySelectorAll("input").forEach(input => {
+                input.value = ""
+            })
+            document.querySelector("textarea").value = ""
+        })
+    }
+
     return (
         <div className="contactContainer">
             <div className="short-nav-container">
@@ -35,7 +52,7 @@ const SalesContact = () => {
                         </div>
                     </div>
 
-                    <form className="contact-form" action="/contact.php?topic=sales" method="post">
+                    <form className="contact-form" onSubmit={handleSubmit}>
                         <div>
                             <label>
                                 Name
@@ -57,7 +74,7 @@ const SalesContact = () => {
                                 <textarea name="message" id="" cols="30" rows="10" required></textarea>
                             </label>
 
-                            <button>Send message</button>
+                            <input type="submit" value="Send message" />
                         </div>
                     </form>
                 </div>

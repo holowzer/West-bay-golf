@@ -3,6 +3,22 @@ import "./GlobalContact.scss"
 import Nav from "../../globalComp/Nav"
 
 const BookGolf = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        const data = new FormData(e.target)
+
+        fetch('/contact.php?topic=golf', {
+            method: 'POST',
+            body: data
+        }).then(() => {
+            alert("Your mail has been sent, our team will follow your request as soon as possible. Thanks!")
+            document.querySelectorAll("input").forEach(input => {
+                input.value = ""
+            })
+        })
+    }
+
     return (
         <div className="contactContainer">
             <div className="short-nav-container">
@@ -33,7 +49,7 @@ const BookGolf = () => {
                         </div>
                     </div>
 
-                    <form className="contact-form" action="/contact.php?topic=golf" method="post">
+                    <form className="contact-form" onSubmit={handleSubmit}>
                         <div>
                             <label>
                                 Name
@@ -63,7 +79,7 @@ const BookGolf = () => {
                                 <input type="number" name="players"  required/>
                             </label>
 
-                            <button>Contact booking</button>
+                            <input type="submit" value="Contact booking"/>
                         </div>
                     </form>
                 </div>
