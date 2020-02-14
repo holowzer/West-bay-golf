@@ -53,17 +53,17 @@ let Golfcourse = (props)=>{
             </div>
             <div className="welcomeDiv">
                 <div>
-                    <img src={golf1} alt="RoatanGolf"/>
+                    <img src={golf1} alt="RoatánGolf"/>
                 </div>
                 <div>
                     <h2>The True Caribbean Golf Experience</h2>
-                    <p>Nestled at the heart of the Caribbean <strong> The Black Iguana Golf Course</strong> is the only Dye design golf course in West Bay, setting the standard of excellence and beauty for an all immersive tropical golf experience.</p>
+                    <p>Nestled at the heart of the Caribbean <strong> The Black Iguana Golf Course</strong> is the only Dye design golf course in West Bay, setting the standard of excellence and beauty for an immersive tropical golf experience.</p>
                 </div>
-           <img id="mySvg" src={mySvg} alt="stylesvg"/>
+                <img id="mySvg" src={mySvg} alt="stylesvg"/>
             </div>
-            <div className="quoteMarket">
+            {/* <div className="quoteMarket">
                 <span>Nothing better than playing golf in front <br/>of paradisiac landscapes.</span>
-            </div>
+            </div> */}
             <div className="arguments">
                 <div className="textArgument">
                 <Parallax disabled={props.disabled} y={[26,-26]}>
@@ -94,7 +94,7 @@ let Golfcourse = (props)=>{
             </div>
             <div className="golfMap">
                 <div className="googleMapGolf">
-                    <img src={golf8} alt="roatanholidays"/>
+                    <img src={golf8} alt="Roatánholidays"/>
                 </div>
                 <div className="mapExplaination">
                 <Parallax disabled={props.disabled}  y={[26,-26]}>
@@ -107,9 +107,8 @@ let Golfcourse = (props)=>{
 
             <div className="blueDivCTA">
                 <h2>Book a tee time with us now!</h2>
-                <h3>we recommand you to reserve your tee time in advance !</h3>
-                <Link to="/contact/book-golf">
-     Book tee times</Link>
+                <h3>we recommand you to reserve your tee time in advance!</h3>
+                <Link to="/contact/book-golf">Reserve Your Tee Time</Link>
             </div>
             
         </div>

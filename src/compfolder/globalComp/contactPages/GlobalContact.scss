@@ -170,6 +170,10 @@
         .midMenu{
             overflow-y: scroll;
             padding: 20px;
+            margin: 10px;
+            h3{
+                font-size: 32px;
+            }
             .contact-cta{
                 background: #FCD024;
                 color: black;
@@ -178,7 +182,7 @@
                 align-items: center;
                 justify-content: center;
                 width: 80%;
-                min-height: 70px;
+                min-height: 50px;
                 border-radius: 15px;
                 font-weight: bold;
                 font-size: 20px;

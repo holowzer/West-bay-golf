@@ -22,9 +22,9 @@ let Nav=()=>{
     },[])
     return(
      <nav>
-        <img className="navButton" src={navIcon} alt="roatan golf club"/>
+        <img className="navButton" src={navIcon} alt="Roatán golf club"/>
         <Link to="/">
-        <img src={westBayLogo} alt="caribbean west bay"/>
+            <img src={westBayLogo} className="navLogo" alt="caribbean west bay"/>
         </Link>
         <div className="contactButton">
             Contact Us

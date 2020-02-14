@@ -48,7 +48,7 @@ const SalesContact = () => {
                         <div>
                             Coral Stone Plaza<br />
                             Sandy Bay Rd<br />
-                            Roatan, Honduras
+                            Roatán, Honduras
                         </div>
                     </div>
 

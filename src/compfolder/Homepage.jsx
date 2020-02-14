@@ -14,7 +14,7 @@ let Homepage = () => {
             <div className="homepageNavContainer">
                 <Nav />
 
-                <h1 className="homepageHook">The Premier Roatan <br/> Golf Experience</h1>
+                <h1 className="homepageHook">The Premier Roatán <br/> Golf Experience</h1>
                 <Slideshow size="normal" img={["/assets/golf-preview.jpg", img1, "/assets/about-us-landing-2.jpg"]} />
                 {/* <Player
                     playsInline
@@ -31,8 +31,8 @@ let Homepage = () => {
                 <h2>Discover the True <br/>Caribbean Golf Experience</h2>
                 <div className="tooClassicDiv">
                     <div id="golfRoatanExplanation" className="preview-text">
-                        Located along the second largest barrier reef in the world, Roatan is truly spoiled by mother
-                        nature. Our golf course features lush vegetation and spectacular roatan ocean views. Our golf course is in West Bay, Roatan and a 10 minute walk from the white sands of West Bay Beach (one of the best in the Caribbean) and a short golf cart ride from every hotel in West Bay.
+                        Located along the second largest barrier reef in the world, Roatán is truly spoiled by mother
+                        nature. Our golf course features lush vegetation and spectacular Roatán ocean views. Our golf course is in West Bay, Roatán and a 10 minute walk from the white sands of West Bay Beach (one of the best in the Caribbean) and a short golf cart ride from every hotel in West Bay.
                     </div>
                     <div className="preview-image">
                         <img src="/assets/home-intermed.png" alt="Golf preview"/>

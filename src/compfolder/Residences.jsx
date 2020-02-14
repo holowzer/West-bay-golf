@@ -64,8 +64,8 @@ const Residences = (props)=>{
         <div className="tooClassicDiv">
         <div className="villaPreviewText">
         <Parallax disabled={props.disabled}  y={[36,-46]}>
-                <h2>Simply the Finest in Roatan Island Living</h2>
-                <p>Surrounded by Roatan’s tropical landscape and the golf course The two bedroom villas are designed by world famed architect, Lane Pettigrew. Making The West Bay Golf Club & Villas a very unique and exciting new development project in Roatan.
+                <h2>Simply the Finest in Roatán Island Living</h2>
+                <p>Surrounded by Roatán’s tropical landscape and the golf course The two bedroom villas are designed by world famed architect, Lane Pettigrew. Making The West Bay Golf Club & Villas a very unique and exciting new development project in Roatán.
  
                 </p>
                 </Parallax>
@@ -139,14 +139,14 @@ patios. The views of greens and blues is all around you and is certain to relax 
             <div className="galeryLeft">
             <Parallax  y={[5,0]}>
                 <img  preload="auto" src={galery1} alt=""/>
-                <p>a peacefull place with a sweet taste of paradise</p>
+                <p>A peaceful place with a sweet taste of paradise</p>
                 </Parallax>
 
             </div>
             <div className="galeryRight">
             <Parallax disabled={props.disabled}  y={[-5,6]}>
                 <img preload="auto" className="rellax" data-rellax-speed="4" src={galery2} alt=""/>
-                <p>A challenging 9-hole !</p>
+                <p>A challenging 9-hole course!</p>
                 </Parallax>
 
             </div>
@@ -154,7 +154,7 @@ patios. The views of greens and blues is all around you and is certain to relax 
             <div className="galeryLeft">
             <Parallax disabled={props.disabled}  y={[5,-8]}>
                 <img preload="auto" className="rellax" src={galery3} alt=""/>
-                <p>Well indicated and easy to travel.</p>
+                <p>The challenge begins</p>
                 </Parallax>
 
             </div>
