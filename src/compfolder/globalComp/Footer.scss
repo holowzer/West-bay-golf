@@ -30,7 +30,26 @@ footer{
 
 
             div a.social-button{
-                color: white;
+                position: relative;
+                &::after{
+                    content: '';
+                    background-size: contain;
+                    position: absolute;
+                    top:10px;
+                    left:10px;
+                    right:10px;
+                    bottom:10px;
+                }
+                &.social-fb::after{
+                    background-image: url(/assets/facebook-logo.svg);   
+                }
+                &.social-ig::after{
+                    background-image: url(/assets/instagram-logo.svg);   
+                }
+
+                img{
+                    fill: white;
+                }
                 text-decoration: none;
                 
                 display: inline-block;

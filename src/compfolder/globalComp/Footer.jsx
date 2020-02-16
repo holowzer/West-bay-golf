@@ -11,9 +11,9 @@ let Footer = () => {
                 <div className="footer-with-logo">
                     <img src={westBayLogo} alt="Caribbean West Bay" />
                     <div>
-                        <a href="https://www.facebook.com/blackiguanagolfroatan" rel="noopener noreferrer" target="_blank" className="social-button" title="Facebook">f</a>
+                        <a href="https://www.facebook.com/blackiguanagolfroatan" rel="noopener noreferrer" target="_blank" className="social-button social-fb" title="Facebook"></a>
                         {/* <a href="#" className="social-button" title="Twitter">t</a> */}
-                        <a href="https://www.instagram.com/explore/tags/westbaygolf/" rel="noopener noreferrer" target="_blank" className="social-button" title="Instagram">i</a>
+                        <a href="https://www.instagram.com/explore/tags/westbaygolf/" rel="noopener noreferrer" target="_blank" className="social-button social-ig" title="Instagram"></a>
                     </div>
                     <p>
                         Palm Ln, West Bay, <br/>
