@@ -15,6 +15,7 @@ let Homepage = () => {
                 <Nav />
 
                 <h1 className="homepageHook">The Premier Roatán <br/> Golf Experience</h1>
+                <a href="https://www.google.com/maps/place/West+Bay+Golf+Club+and+Villas/@16.2774267,-86.593264,15z/data=!4m5!3m4!1s0x0:0x318659a77ec3b86d!8m2!3d16.2774267!4d-86.593264" target="_blank" rel="noopener noreferrer" className="locateButton">Locate us</a>
                 <Slideshow size="normal" img={["/assets/golf-preview.jpg", img1, "/assets/about-us-landing-2.jpg"]} />
                 {/* <Player
                     playsInline
