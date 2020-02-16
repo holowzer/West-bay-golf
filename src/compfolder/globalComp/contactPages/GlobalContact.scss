@@ -69,12 +69,15 @@
                     label{
                         display: block;
                         font-weight: bold;
-                        input, textarea{
+                        input, textarea, select{
                             border: 1px solid #CCC;
                             display: block;
                             padding: 10px;
                             resize: none;
                             width: 90%;
+                        }
+                        select{
+                            height: 40px;
                         }
                         margin: 20px 0;
                         font-weight: normal;
