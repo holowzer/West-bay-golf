@@ -30,7 +30,7 @@ const RentalContact = () => {
 
             <h1>We Look Forward to Connecting Soon!</h1>
 
-            <div class="contact-info-container">
+            <div className="contact-info-container">
                 <h2>Contact us</h2>
                 <p>
                     Contact us via the form below or use the email address, telephone number, or postal information. We look forward to hearing from you.

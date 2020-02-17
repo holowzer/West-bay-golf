@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="topDiv">
                 <img className="theContactCross" src={close} alt="" />
             </div>
-            <div class="midMenu">
+            <div className="midMenu">
                 <h3>Select the team <br/> you would like to contact</h3>
 
                 <Link className="contact-cta" to="/contact/book-golf">

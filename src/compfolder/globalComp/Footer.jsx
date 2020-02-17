@@ -16,8 +16,10 @@ let Footer = () => {
                         <a href="https://www.instagram.com/explore/tags/westbaygolf/" rel="noopener noreferrer" target="_blank" className="social-button social-ig" title="Instagram"></a>
                     </div>
                     <p>
-                        Palm Ln, West Bay, <br/>
-                        Honduras
+                        <a href="https://www.google.com/maps/place/West+Bay+Golf+Club+and+Villas/@16.2774267,-86.593264,15z/data=!4m5!3m4!1s0x0:0x318659a77ec3b86d!8m2!3d16.2774267!4d-86.593264" target="_blank" rel="noopener noreferrer">
+                            Palm Ln, West Bay, <br/>
+                            Honduras
+                        </a>
                     </p>
                     <div className="footer-important-links">
                         <a href="phone:+504 9483-7049" title="Call West Bay">+504 9483-7049</a>
@@ -26,7 +28,7 @@ let Footer = () => {
                     </div>
                 </div>
 
-                <div class="footer-menu">
+                <div className="footer-menu">
                     <ul>
                         <li> <Link to="/">Home</Link></li>
                         <li> <Link to="/golf">Golf</Link> </li>
