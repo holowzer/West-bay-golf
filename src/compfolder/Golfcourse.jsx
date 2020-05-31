@@ -6,6 +6,7 @@ import img2 from "../images/golf4-min.jpeg"
 import golf1 from "../images/golf1-min.jpeg"
 import golf5 from "../images/golf5-min.jpeg"
 import golf6 from "../images/golf6-min.jpeg"
+import Offers from "./offers"
 import golf8 from "../images/golf8-min.jpg"
 import golf9 from "../images/galery3-min.jpg"
 import golf10 from "../images/roatanluxurytravel-min.jpg"
@@ -104,7 +105,7 @@ let Golfcourse = (props)=>{
                     </Parallax>
                 </div>
             </div>
-
+            <Offers/>
             <div className="blueDivCTA">
                 <h2>Book a tee time with us now!</h2>
                 <h3>we recommand you to reserve your tee time in advance!</h3>
