@@ -47,7 +47,7 @@ let Footer = () => {
                     </div>
                    
                     <a href="https://roatansir.com/west-bay-golf-club-villas/" rel="noopener noreferrer" target="_blank">
-                        <img src="/sotheby-logo.png" alt="Sotheby"/>
+                        <img src="/roatan-life-logo.png" alt="Sotheby"/>
                     </a>
                     <div className="footer-logo-vertical-align">
                         <div>
