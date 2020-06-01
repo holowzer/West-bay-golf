@@ -38,16 +38,16 @@ const SalesContact = () => {
                 <div className="contact-form-block">
                     <div className="company-info">
                         <div>
-                            <img src="/sotheby-logo.png" alt="Sotheby's International Realty logo" />
+                            <img src="/roatan-life-logo.png" alt="Roatan Life logo" /><br />
                         </div>
                         <div>
-                            <a href="phone:7132613315" title="Call Sotheby's International Realty">713 261 3315</a>
-                            <a href="phone:+50424453222" title="Call Sotheby's International Realty">+ 504 2445 3222</a>
+                            <a href="phone:+50424453130" title="Call Roatan Life">+ 504-2445-3130</a>
+                            <a href="phone:18137744686" title="Call Rotan Life from USA">1-813-774-4686</a>
                             <a href="mailto:info@roatansir.com" title="Contact West Bay">info@roatansir.com</a>
                         </div>
                         <div>
-                            Coral Stone Plaza<br />
-                            Sandy Bay Rd<br />
+                            Lawson Rock Business Center<br />
+                            Sandy Bay<br />
                             Roatán, Honduras
                         </div>
                     </div>

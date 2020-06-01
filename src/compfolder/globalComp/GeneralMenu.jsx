@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
-import "./GeneralMenu.scss"
-import close from "../../images/close.svg"
-import sothebys from "../../images/sothebys.png"
+import "./GeneralMenu.scss";
+import close from "../../images/close.svg";
 import { Link } from 'react-router-dom';
-const GeneralMenu = ()=>{
-    useEffect(()=>{
-        let closebut= document.querySelector('.theCross')
-        let generalMenu = document.querySelector('.generalMenu')
-        closebut.addEventListener('click',()=>{
-            generalMenu.classList.add('toggleMenu')
-        })
-        
+
+const GeneralMenu = () => {
+    useEffect(() => {
+        const closebut    = document.querySelector('.theCross')
+        const generalMenu = document.querySelector('.generalMenu')
+        closebut.addEventListener('click', () => {
+            generalMenu.classList.add('toggleMenu');
+        });
     },[])
     
     return(
@@ -37,7 +36,6 @@ const GeneralMenu = ()=>{
                     <h3>Learn more about our villas</h3>
                     <div className="whiteSotheby">
                         <img src="/roatan-life-logo.png" alt=""/>
-                        {/* <img src={sothebys} alt=""/> */}
                     </div>
                     <div className="contactCta">
                         <Link to="#" onClick={() => {

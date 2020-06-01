@@ -96,8 +96,8 @@ const BookGolf = () => {
                                 </select>
                             </label>
                             <label>
-                                Players number
-                                <input type="number" name="players"  required/>
+                                Number of players
+                                <input type="number" name="players" required/>
                             </label>
 
                             <input type="submit" value="Contact booking"/>

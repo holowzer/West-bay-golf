@@ -46,8 +46,8 @@ let Footer = () => {
                         <a className="weatherwidget-io" href="https://forecast7.com/en/16d32n86d54/coxen-hole/?unit=us" data-label_1="ROATÁN" data-label_2="WEATHER" data-icons="Climacons Animated" data-days="5" data-textcolor="#FFF" >ROATÁN WEATHER</a>
                     </div>
                    
-                    <a href="https://roatansir.com/west-bay-golf-club-villas/" rel="noopener noreferrer" target="_blank">
-                        <img src="/roatan-life-logo.png" alt="Sotheby"/>
+                    <a href="https://www.roatanlife.com/" rel="noopener noreferrer" target="_blank">
+                        <img src="/roatan-life-logo.png" alt="Roatan Life"/>
                     </a>
                     <div className="footer-logo-vertical-align">
                         <div>
