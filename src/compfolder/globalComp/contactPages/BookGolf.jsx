@@ -1,6 +1,7 @@
 import React from 'react';
 import "./GlobalContact.scss"
 import Nav from "../../globalComp/Nav"
+import Offers from '../../offers';
 
 const BookGolf = () => {
     const handleSubmit = (e) => {
@@ -34,6 +35,8 @@ const BookGolf = () => {
                     Contact us via the form below or use the email address, telephone number, or postal information. We look forward to hearing from you.
                 </p>
 
+                <Offers />
+
                 <div className="contact-form-block">
                     <div className="company-info">
                         <div>
@@ -62,6 +65,14 @@ const BookGolf = () => {
                             <label>
                                 Phone
                                 <input type="text" name="phone" required/>
+                            </label>
+                            <label>
+                                Package
+                                <select name="package" id="package">
+                                    <option value="Iguana Discovery">Iguana Discovery Package ($40/person)</option>
+                                    <option value="All Inclusive">All Inclusive Package ($55/person)</option>
+                                    <option value="All you can Golf">All you can Golf Package ($70/person)</option>
+                                </select>
                             </label>
                         </div>
 
