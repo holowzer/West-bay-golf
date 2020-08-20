@@ -43,7 +43,7 @@ const SalesContact = () => {
                         <div>
                             <a href="phone:+50424453130" title="Call Roatan Life">+ 504-2445-3130</a>
                             <a href="phone:18137744686" title="Call Rotan Life from USA">1-813-774-4686</a>
-                            <a href="mailto:info@roatansir.com" title="Contact West Bay">info@roatansir.com</a>
+                            <a href="mailto:sales@roatanlife.com" title="Contact Roatan Life">sales@roatanlife.com</a>
                         </div>
                         <div>
                             Lawson Rock Business Center<br />

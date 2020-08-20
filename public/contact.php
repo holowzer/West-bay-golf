@@ -37,6 +37,7 @@
             default:
             die("Error");
         }
+        $message->setBcc([getenv('PRYNT_COPY')]);
 
         $text = "Hello, \r\n Here's the request received from your website.\r\n";
 
