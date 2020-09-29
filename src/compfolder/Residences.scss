@@ -1,4 +1,17 @@
 .Residences {
+    .mapContainer{
+        height: auto;
+        margin: 20px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            width: 60%;
+            height: auto;
+        }
+    }
     width: 100%;
     height: auto;
     p {

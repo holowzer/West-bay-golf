@@ -6,7 +6,7 @@ import galery2 from "../images/galery2.jpeg"
 import galery3 from "../images/galery3-min.jpg"
 import galery4 from "../images/galery4-min.jpg"
 import galery5 from "../images/galery5-min.jpg"
-import galery6 from "../images/galery6-min.jpg"
+import galery6 from "../images/galery6.jpg"
 import community from "../images/teamwork.png"
 import golffield from "../images/golf-field.png"
 import beach from "../images/beach.png"
@@ -15,6 +15,7 @@ import view from "../images/view.png"
 import cabin from "../images/cabin.png"
 
 import img1 from "../images/indoor1.jpg"
+import mapdeveloppement from "../images/map.jpg"
 import img2 from "../images/house4.jpg"
 import Slideshow from "./globalComp/Slider";
 import Nav from "./globalComp/Nav";
@@ -178,7 +179,7 @@ patios. The views of greens and blues is all around you and is certain to relax 
             <Parallax disabled={props.disabled}  y={[20,-10]}>
 
                 <img preload="auto" className="rellax" src={galery6} alt=""/>
-                <p>Your house is always near..</p>
+                <p>Your house is close to the ocean.</p>
                 </Parallax>
 
             </div>
@@ -188,7 +189,10 @@ patios. The views of greens and blues is all around you and is certain to relax 
 
 
 
-        
+        <div className="mapContainer">
+            <h2>Check the available villas.</h2>
+            <img src={mapdeveloppement} alt=""/>
+        </div>
         <GeneralMenu/>
         </div>
     )
