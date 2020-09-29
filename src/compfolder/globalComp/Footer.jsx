@@ -22,9 +22,9 @@ let Footer = () => {
                         </a>
                     </p>
                     <div className="footer-important-links">
-                        <a href="phone:+504 9483-7049" title="Call West Bay">+504 9483-7049</a>
+                        <a href="phone:+504 9683-7049" title="Call West Bay">+504 9683-7049</a>
                         <br/>
-                        <a href="mailto:golf@westbaygolfclubvillas.com" title="Contact West Bay">golf@westbaygolfclubvillas.com</a>
+                        <a href="mailto:info@westbaygolfclubvillas.com" title="Contact West Bay">info@westbaygolfclubvillas.com</a>
                     </div>
                 </div>
 

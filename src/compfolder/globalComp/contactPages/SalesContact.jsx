@@ -41,8 +41,9 @@ const SalesContact = () => {
                             <img src="/roatan-life-logo.png" alt="Roatan Life logo" /><br />
                         </div>
                         <div>
-                            <a href="phone:+50499598033" title="Call Roatan Life">+ 504-9959-8033</a>
-                            <a href="phone:18137744686" title="Call Rotan Life from USA">1-813-774-4686</a>
+                            <span>For Villa Sales Contact:</span>
+                            <a href="phone:+50499598033" title="Call Roatan Life">+504-9959-8033 (Roatan Number/WhatsApp)</a>
+                            <a href="phone:18137744686" title="Call Rotan Life from USA">1-813-774-4686 (USA Telephone forwarding to Roatan)</a>
                             <a href="mailto:sales@roatanlife.com" title="Contact Roatan Life">sales@roatanlife.com</a>
                         </div>
                         <div>

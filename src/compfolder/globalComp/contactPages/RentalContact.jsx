@@ -42,8 +42,8 @@ const RentalContact = () => {
                             <img src={westBayLogo} alt="Black Iguana logo" />
                         </div>
                         <div>
-                            <a href="phone:+504 9483-7049" title="Call West Bay">+504 9483-7049</a>
-                            <a href="mailto:golf@westbaygolfclubvillas.com" title="Contact West Bay">golf@westbaygolfclubvillas.com</a>
+                            <a href="phone:+504 9683-7049" title="Call West Bay">+504 9683-7049</a>
+                            <a href="mailto:info@westbaygolfclubvillas.com" title="Contact West Bay">info@westbaygolfclubvillas.com</a>
                         </div>
                         <div>
                             Palm Ln, West Bay, <br />
