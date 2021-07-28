@@ -38,7 +38,7 @@ const SalesContact = () => {
                 <div className="contact-form-block">
                     <div className="company-info">
                         <div>
-                            <img src="/roatan-life-logo.png" alt="Roatan Life logo" /><br />
+                            <img src="/roatan-life-logo.png" alt="Roatan Sir logo" /><br />
                         </div>
                         <div>
                             <span>For Villa Sales Contact:</span>

@@ -35,7 +35,9 @@ const GeneralMenu = () => {
                 <div className="rightLinks">
                     <h3>Learn more about our villas</h3>
                     <div className="whiteSotheby">
-                        <img src="/roatan-life-logo.png" alt=""/>
+                        <a href="https://roatansir.com/?utm_medium=site&utm_source=westbaygolfclubvillas" target="_blank">
+                            <img src="/roatan-life-logo.png" alt="Roatan Sir" />
+                        </a>
                     </div>
                     <div className="contactCta">
                         <Link to="#" onClick={() => {
