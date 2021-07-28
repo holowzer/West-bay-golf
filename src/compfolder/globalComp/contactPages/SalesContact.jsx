@@ -38,19 +38,17 @@ const SalesContact = () => {
                 <div className="contact-form-block">
                     <div className="company-info">
                         <div>
-                            <img src="/roatan-life-logo.png" alt="Roatan Sir logo" /><br />
+                            <a href="https://roatansir.com/?utm_medium=site&utm_source=westbaygolfclubvillas" target="_blank">
+                                <img src="/roatan-life-logo.png" alt="Roatan Sir" />
+                            </a>
                         </div>
                         <div>
                             <span>For Villa Sales Contact:</span>
-                            <a href="phone:+50499598033" title="Call Roatan Life">+504-9959-8033 (Roatan Number/WhatsApp)</a>
-                            <a href="phone:18137744686" title="Call Rotan Life from USA">1-813-774-4686 (USA Telephone forwarding to Roatan)</a>
-                            <a href="mailto:sales@roatanlife.com" title="Contact Roatan Life">sales@roatanlife.com</a>
+                            <a href="phone:+50424453222" title="Call Roatan Sir">+504-2445-3222 (Roatán Number)</a>
+                            <a href="phone:17132613315" title="Call Roatan Sir">1-713-261-3315 (USA Telephone forwarding to Roatán)</a>
+                            <a href="mailto:info@roatansir.com" title="Contact Roatan Sir">info@roatansir.com</a>
                         </div>
-                        <div>
-                            Lawson Rock Business Center<br />
-                            Sandy Bay<br />
-                            Roatán, Honduras
-                        </div>
+                        <div></div>
                     </div>
 
                     <form className="contact-form" onSubmit={handleSubmit}>
