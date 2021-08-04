@@ -45,27 +45,6 @@ let Aboutus = () => {
                 </div>
             </div>
 
-            <div className="aboutus-family sidebyside">
-                <div className="sidebyside-col">
-                    <h3>The Family</h3>
-                    <p>
-                        There are 3 directors of the project with widely varied backgrounds. The common ground is
-                        that they are friends and love Roatán. Our President, Kevin Wesley, is a Roatán native and
-                        prominent figure in Roatán. He has built churches, schools, and even entire resorts prior to
-                        dreaming up the West Bay Golf Course project. He is joined by a friend, Jimmy Mikkelsen, who has built golf courses by Dye Designs for more than 20 years. And finally, Worth and Kristine Jennings who have been home owners and frequent travelers to Roatán for more than a decade.
-                    </p>
-                </div>
-                <div className="sidebyside sidebyside-img">
-                    <div>
-                        {/* <h3>Staff Members</h3> */}
-                        <img src="/assets/family1.jpg" alt="Family 1" />
-                    </div>
-                    <div>
-                        {/* <h3>Owners</h3> */}
-                        <img src="/assets/family2.jpg" alt="Family 2" />
-                    </div>
-                </div>
-            </div>
 
             <div className="aboutus-center-block">
                 <h2>Conceived in the <br/>Heart of the Caribbean</h2>

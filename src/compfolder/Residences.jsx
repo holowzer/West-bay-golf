@@ -56,7 +56,7 @@ const Residences = (props)=>{
         <div className="overLayer">
             <h4>Book your place !</h4>
                 <div className="rightCTA">
-                    <a href="https://www.roatanlife.com/" target="_blank">Find your perfect house <span id='spanLine'>-</span></a>
+                    <a href="https://roatansir.com/?utm_medium=site&utm_source=westbaygolfclubvillas" target="_blank">Find your perfect house <span id='spanLine'>-</span></a>
                 </div>
                 
             </div>
