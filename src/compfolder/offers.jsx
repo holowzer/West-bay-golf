@@ -24,7 +24,7 @@ let Offers=()=>{
                     <div className="frameRound"><img src={golf} alt=""/></div>
                     <div className="textOffer">
                         <h2>All Inclusive Package</h2>
-                        <p>2 times 9 Holes Perry DYE Design Golf Cart, balls and Golf clubs included 2 local beers <br/><strong>$55.00 / person</strong>
+                        <p>2 times 9 Holes Perry DYE Design Golf Cart, 4 balls and Golf clubs included 2 local drinks <br/><strong>$59.00 / person</strong>
                         </p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ let Offers=()=>{
                     <div className="frameRound"><img src={all} alt=""/></div>
                     <div className="textOffer">
                         <h2>All you can Golf Package</h2>
-                        <p>Unlimited Holes Perry DYE Design Golf Cart, balls and Golf clubs included 2 local beers and snack <br/><strong>$70.00 / person</strong></p>
+                        <p>Unlimited Holes Perry DYE Design Golf Cart, balls and Golf clubs included 2 local drinks and snack <br/><strong>$75.00 / person</strong></p>
                     </div>
                 </div>
             </div>

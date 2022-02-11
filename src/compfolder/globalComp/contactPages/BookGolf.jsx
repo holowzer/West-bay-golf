@@ -70,8 +70,8 @@ const BookGolf = () => {
                                 Package
                                 <select name="package" id="package">
                                     <option value="Iguana Discovery">Iguana Discovery Package ($40/person)</option>
-                                    <option value="All Inclusive">All Inclusive Package ($55/person)</option>
-                                    <option value="All you can Golf">All you can Golf Package ($70/person)</option>
+                                    <option value="All Inclusive">All Inclusive Package ($59/person)</option>
+                                    <option value="All you can Golf">All you can Golf Package ($75/person)</option>
                                 </select>
                             </label>
                         </div>
