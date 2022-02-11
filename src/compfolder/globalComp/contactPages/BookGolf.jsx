@@ -110,6 +110,15 @@ const BookGolf = () => {
                                 Number of players
                                 <input type="number" name="players" required/>
                             </label>
+                            <label>
+                                Club set type
+                                <select name="club-set-type" id="club-set-type">
+                                    <option value="Men's left">Men's left</option>
+                                    <option value="Men's right">Men's right</option>
+                                    <option value="Women's left">Women's left</option>
+                                    <option value="Women's right">Women's right</option>
+                                </select>
+                            </label>
 
                             <input type="submit" value="Contact booking"/>
                         </div>
