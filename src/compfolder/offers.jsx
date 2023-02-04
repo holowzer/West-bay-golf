@@ -16,7 +16,7 @@ let Offers=()=>{
                     <div className="frameRound"><img src={discovery} alt=""/></div>
                     <div className="textOffer">
                         <h2>Iguana Discovery Package </h2>
-                        <p>9 Holes Perry DYE Design Golf Cart included <br/><strong>$40.00 / person</strong>
+                        <p>9 Holes Perry DYE Design Golf Cart included <br/><strong>$45.00 / person</strong>
                         </p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ let Offers=()=>{
                     <div className="frameRound"><img src={golf} alt=""/></div>
                     <div className="textOffer">
                         <h2>All Inclusive Package</h2>
-                        <p>2 times 9 Holes Perry DYE Design Golf Cart, 4 balls and Golf clubs included 2 local drinks <br/><strong>$59.00 / person</strong>
+                        <p>2 times 9 Holes Perry DYE Design Golf Cart, 4 balls and Golf clubs included 2 local drinks <br/><strong>$62.00 / person</strong>
                         </p>
                     </div>
                 </div>
